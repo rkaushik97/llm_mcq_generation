@@ -2,11 +2,11 @@
     {
         "question": "Wo erfolgt die Lieferung der Geräte?",
         "options": {
-            "A": "An die einzelnen Schulen in Oetwil am See",
-            "B": "An eine zentrale Anlieferstelle in Oetwil am See",
+            "A": "An verschiedene Standorte in Oetwil am See",
+            "B": "Zentral an eine Anlieferstelle in Oetwil am See",
             "C": "An die Schulverwaltung Oetwil am See",
             "D": "An die Educlix GmbH in Richterswil",
-            "E": "An die Schwyzerstrasse 28h in Richterswil"
+            "E": "An die Schule in einem anderen Ort"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -25,7 +25,8 @@
             "A": "10%",
             "B": "5%",
             "C": "20%",
-            "D": "30%"
+            "D": "30%",
+            "E": "40%"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -39,16 +40,15 @@
         }
     },
     {
-        "question": "Wie viele MacBook Air-Geräte werden benötigt?",
+        "question": "Wie viele MacBook Air mit 1,8 GHz i5-Prozessor, 8GB RAM und 256GB SSD werden benötigt?",
         "options": {
             "A": "3 Stück",
-            "B": "1 Stück",
-            "C": "66 Stück",
-            "D": "147 Stück",
-            "E": "174 Stück",
-            "F": "256 Stück"
+            "B": "66 Stück",
+            "C": "147 Stück",
+            "D": "174 Stück",
+            "E": "1 Stück"
         },
-        "correct_answer": "C",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "169436/docs/180404_it_oetwil.pdf",
@@ -60,14 +60,13 @@
         }
     },
     {
-        "question": "Wie viele Stück des Apple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) sind in Position 9 aufgeführt?",
+        "question": "Wie viele Stück des Apple Smart Keyboard für das 12,9\" iPad Pro sind in Position 9 aufgeführt?",
         "options": {
             "A": "5 Stück",
             "B": "8 Stück",
             "C": "9 Stück",
             "D": "10 Stück",
-            "E": "12 Stück",
-            "F": "15 Stück"
+            "E": "12 Stück"
         },
         "correct_answer": "C",
         "language": "DE",
@@ -81,14 +80,12 @@
         }
     },
     {
-        "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
+        "question": "Wie viele Stück des Monitors Philips 273V7QDAB werden benötigt?",
         "options": {
-            "A": "2 Stück",
-            "B": "4 Stück",
-            "C": "6 Stück",
-            "D": "8 Stück",
-            "E": "10 Stück",
-            "F": "12 Stück"
+            "A": "1 Stück",
+            "B": "3 Stück",
+            "C": "4 Stück",
+            "D": "6 Stück"
         },
         "correct_answer": "B",
         "language": "DE",
