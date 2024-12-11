@@ -1,0 +1,296 @@
+[
+    [
+        {
+            "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
+            "options": {
+                "A": "An die Educlix GmbH in Richterswil",
+                "B": "An eine zentrale Lagerhalle in Zürich",
+                "C": "Zentral an eine Anlieferstelle in Oetwil am See",
+                "D": "An die Schulverwaltung in Oetwil am See",
+                "E": "An verschiedene Standorte in Oetwil am See",
+                "F": "An die Schule in Richterswil"
+            },
+            "correct_answer": "C",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
+            "options": {
+                "A": "An die Schule in Richterswil",
+                "B": "An eine zentrale Lagerhalle in Zürich",
+                "C": "Zentral an eine Anlieferstelle in Oetwil am See",
+                "D": "An die Schulverwaltung in Oetwil am See",
+                "E": "An die Educlix GmbH in Richterswil",
+                "F": "An verschiedene Standorte in Oetwil am See"
+            },
+            "correct_answer": "C",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
+            "options": {
+                "A": "An die Educlix GmbH in Richterswil",
+                "B": "An verschiedene Standorte in Oetwil am See",
+                "C": "An die Schulverwaltung in Oetwil am See",
+                "D": "An eine zentrale Lagerhalle in Zürich",
+                "E": "An die Schule in Richterswil",
+                "F": "Zentral an eine Anlieferstelle in Oetwil am See"
+            },
+            "correct_answer": "F",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
+            "options": {
+                "A": "An die Educlix GmbH in Richterswil",
+                "B": "An die Schule in Richterswil",
+                "C": "An eine zentrale Lagerhalle in Zürich",
+                "D": "Zentral an eine Anlieferstelle in Oetwil am See",
+                "E": "An die Schulverwaltung in Oetwil am See",
+                "F": "Keine der oben genannten Optionen"
+            },
+            "correct_answer": "D",
+            "version": "nota",
+            "language": "DE"
+        },
+        {
+            "true_false_prompt": "Ist das folgende Frage-Antwort Paar Richtig oder Falsch?",
+            "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
+            "answer": "An die Schule in Richterswil",
+            "label": false,
+            "version": "true_false",
+            "language": "DE"
+        }
+    ],
+    [
+        {
+            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
+            "options": {
+                "A": "50%",
+                "B": "40%",
+                "C": "30%",
+                "D": "20%"
+            },
+            "correct_answer": "D",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
+            "options": {
+                "A": "20%",
+                "B": "30%",
+                "C": "40%",
+                "D": "50%"
+            },
+            "correct_answer": "A",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
+            "options": {
+                "A": "40%",
+                "B": "50%",
+                "C": "30%",
+                "D": "20%"
+            },
+            "correct_answer": "D",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
+            "options": {
+                "A": "30%",
+                "B": "40%",
+                "C": "50%",
+                "D": "Keine der oben genannten Optionen"
+            },
+            "correct_answer": "D",
+            "version": "nota",
+            "language": "DE"
+        },
+        {
+            "true_false_prompt": "Ist das folgende Frage-Antwort Paar Richtig oder Falsch?",
+            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
+            "answer": "40%",
+            "label": false,
+            "version": "true_false",
+            "language": "DE"
+        }
+    ],
+    [
+        {
+            "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
+            "options": {
+                "A": "66 Stück",
+                "B": "3 Stück",
+                "C": "147 Stück"
+            },
+            "correct_answer": "A",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
+            "options": {
+                "A": "66 Stück",
+                "B": "3 Stück",
+                "C": "147 Stück"
+            },
+            "correct_answer": "A",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
+            "options": {
+                "A": "3 Stück",
+                "B": "66 Stück",
+                "C": "147 Stück"
+            },
+            "correct_answer": "B",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
+            "options": {
+                "A": "3 Stück",
+                "B": "66 Stück",
+                "C": "Keine der oben genannten Optionen"
+            },
+            "correct_answer": "B",
+            "version": "nota",
+            "language": "DE"
+        },
+        {
+            "true_false_prompt": "Ist das folgende Frage-Antwort Paar Richtig oder Falsch?",
+            "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
+            "answer": "66 Stück",
+            "label": true,
+            "version": "true_false",
+            "language": "DE"
+        }
+    ],
+    [
+        {
+            "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
+            "options": {
+                "A": "AZERTY (FR)",
+                "B": "QWERTZ (DE)",
+                "C": "QWERTZ (CH)",
+                "D": "Keine Angabe",
+                "E": "QWERTY (US)"
+            },
+            "correct_answer": "C",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
+            "options": {
+                "A": "AZERTY (FR)",
+                "B": "Keine Angabe",
+                "C": "QWERTY (US)",
+                "D": "QWERTZ (DE)",
+                "E": "QWERTZ (CH)"
+            },
+            "correct_answer": "E",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
+            "options": {
+                "A": "AZERTY (FR)",
+                "B": "QWERTZ (CH)",
+                "C": "Keine Angabe",
+                "D": "QWERTY (US)",
+                "E": "QWERTZ (DE)"
+            },
+            "correct_answer": "B",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
+            "options": {
+                "A": "AZERTY (FR)",
+                "B": "QWERTY (US)",
+                "C": "QWERTZ (DE)",
+                "D": "Keine Angabe",
+                "E": "Keine der oben genannten Optionen"
+            },
+            "correct_answer": "E",
+            "version": "nota",
+            "language": "DE"
+        },
+        {
+            "true_false_prompt": "Ist das folgende Frage-Antwort Paar Richtig oder Falsch?",
+            "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
+            "answer": "QWERTY (US)",
+            "label": false,
+            "version": "true_false",
+            "language": "DE"
+        }
+    ],
+    [
+        {
+            "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
+            "options": {
+                "A": "2 Stück",
+                "B": "4 Stück",
+                "C": "6 Stück"
+            },
+            "correct_answer": "B",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
+            "options": {
+                "A": "4 Stück",
+                "B": "6 Stück",
+                "C": "2 Stück"
+            },
+            "correct_answer": "A",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
+            "options": {
+                "A": "2 Stück",
+                "B": "4 Stück",
+                "C": "6 Stück"
+            },
+            "correct_answer": "B",
+            "version": "reordered",
+            "language": "DE"
+        },
+        {
+            "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
+            "options": {
+                "A": "6 Stück",
+                "B": "4 Stück",
+                "C": "Keine der oben genannten Optionen"
+            },
+            "correct_answer": "B",
+            "version": "nota",
+            "language": "DE"
+        },
+        {
+            "true_false_prompt": "Ist das folgende Frage-Antwort Paar Richtig oder Falsch?",
+            "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
+            "answer": "2 Stück",
+            "label": false,
+            "version": "true_false",
+            "language": "DE"
+        }
+    ]
+]

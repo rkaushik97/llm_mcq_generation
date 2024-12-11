@@ -1,0 +1,58 @@
+[
+    {
+        "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
+        "options": {
+            "A": "An verschiedene Standorte in Oetwil am See",
+            "B": "Zentral an eine Anlieferstelle in Oetwil am See",
+            "C": "An die Schule in Richterswil",
+            "D": "An die Educlix GmbH in Richterswil",
+            "E": "An die Schulverwaltung in Oetwil am See",
+            "F": "An eine zentrale Lagerhalle in Zürich"
+        },
+        "correct_answer": "B",
+        "language": "DE"
+    },
+    {
+        "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
+        "options": {
+            "A": "50%",
+            "B": "20%",
+            "C": "30%",
+            "D": "40%"
+        },
+        "correct_answer": "B",
+        "language": "DE"
+    },
+    {
+        "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
+        "options": {
+            "A": "3 Stück",
+            "B": "66 Stück",
+            "C": "147 Stück"
+        },
+        "correct_answer": "B",
+        "language": "DE"
+    },
+    {
+        "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
+        "options": {
+            "A": "QWERTY (US)",
+            "B": "QWERTZ (CH)",
+            "C": "AZERTY (FR)",
+            "D": "QWERTZ (DE)",
+            "E": "Keine Angabe"
+        },
+        "correct_answer": "B",
+        "language": "DE"
+    },
+    {
+        "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
+        "options": {
+            "A": "2 Stück",
+            "B": "4 Stück",
+            "C": "6 Stück"
+        },
+        "correct_answer": "B",
+        "language": "DE"
+    }
+]
