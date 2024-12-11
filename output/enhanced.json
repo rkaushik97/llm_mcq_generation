@@ -1,296 +1,520 @@
 [
     [
         {
-            "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
+            "question": "Wo erfolgt die Lieferung der Geräte?",
+            "options": {
+                "A": "An eine zentrale Anlieferstelle in Oetwil am See",
+                "B": "An die Schulverwaltung Oetwil am See",
+                "C": "An die Educlix GmbH in Richterswil",
+                "D": "An die Schwyzerstrasse 28h in Richterswil",
+                "E": "An die einzelnen Schulen in Oetwil am See"
+            },
+            "correct_answer": "A",
+            "version": "reordered",
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \nSubmissionsbeschrieb \nIT-Beschaffung Schule Oetwil am See \n \nVergabestelle: \nSchulverwaltung Oetwil am See \nBachtelweg 8a, 8618 Oetwil am See \n+41 (0)43 844 88 88 | schulverwaltung@oetwil.ch \nOrganisator des \nBeschaffungsverfahrens: \nEduclix GmbH \nHansueli Schiller \nSchwyzerstrasse 28h \n8805 Richterswil \n078 641 13 52 | hschiller@educlix.com \nVerfahrensart: \nSubmission, offenes Verfahren \nStaatsvertragsbereich (> 350'000): Nein \nAuftragsart: \nLieferauftrag \n \nBeschaffungsprojekt: \nLieferung von iPads, Macbooks, Apple TV, \nPeripheriegeräten und Zubehör im Rahmen des \nInformatikkonzepts der öffentlichen \nSchule Oetwil am See. Eine detaillierte \nBeschaffungsliste ist Teil dieser Ausschreibung. Die \nInstallation und weitere \nDienstleistungen sind nicht Bestandteil dieser \nAusschreibung. \nEingabeadresse: \nSchulverwaltung Oetwil am See \n«IT-Submission» \nBachtelweg 8a \n8618 Oetwil am See \nEingeschrieben in verschlossenem Umschlag mit \ndem Vermerk «IT-Submission» \nEingabetermin: \nMontag, 14. Mai 2018 \nbei der Eingabeadresse. \nEingang am Eingabeort massgebend (nicht \nPoststempel) \nOffertöffnung: \nDienstag, 15. Mai 2018 \nDie Offertöffnung ist nicht öffentlich. Es wird ein \nOffertöffnungsprotokoll erstellt. \nVergabedatum: \nVoraussichtlich 4. Juni 2018 \nLieferung: \nVoraussichtlich 30. Juli 2018 \nDie Lieferung erfolgt zentral an eine Anlieferstelle in \nOetwil am See. Das Auspacken der Geräte wie das \nEntsorgen des Verpackungsmaterials erfolgt durch \ndie Schule.  \nGültigkeit der Offerte: \n60 Tage \n",
+                "page": 1,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
+        },
+        {
+            "question": "Wo erfolgt die Lieferung der Geräte?",
             "options": {
                 "A": "An die Educlix GmbH in Richterswil",
-                "B": "An eine zentrale Lagerhalle in Zürich",
-                "C": "Zentral an eine Anlieferstelle in Oetwil am See",
-                "D": "An die Schulverwaltung in Oetwil am See",
-                "E": "An verschiedene Standorte in Oetwil am See",
-                "F": "An die Schule in Richterswil"
+                "B": "An die Schulverwaltung Oetwil am See",
+                "C": "An eine zentrale Anlieferstelle in Oetwil am See",
+                "D": "An die Schwyzerstrasse 28h in Richterswil",
+                "E": "An die einzelnen Schulen in Oetwil am See"
             },
             "correct_answer": "C",
             "version": "reordered",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \nSubmissionsbeschrieb \nIT-Beschaffung Schule Oetwil am See \n \nVergabestelle: \nSchulverwaltung Oetwil am See \nBachtelweg 8a, 8618 Oetwil am See \n+41 (0)43 844 88 88 | schulverwaltung@oetwil.ch \nOrganisator des \nBeschaffungsverfahrens: \nEduclix GmbH \nHansueli Schiller \nSchwyzerstrasse 28h \n8805 Richterswil \n078 641 13 52 | hschiller@educlix.com \nVerfahrensart: \nSubmission, offenes Verfahren \nStaatsvertragsbereich (> 350'000): Nein \nAuftragsart: \nLieferauftrag \n \nBeschaffungsprojekt: \nLieferung von iPads, Macbooks, Apple TV, \nPeripheriegeräten und Zubehör im Rahmen des \nInformatikkonzepts der öffentlichen \nSchule Oetwil am See. Eine detaillierte \nBeschaffungsliste ist Teil dieser Ausschreibung. Die \nInstallation und weitere \nDienstleistungen sind nicht Bestandteil dieser \nAusschreibung. \nEingabeadresse: \nSchulverwaltung Oetwil am See \n«IT-Submission» \nBachtelweg 8a \n8618 Oetwil am See \nEingeschrieben in verschlossenem Umschlag mit \ndem Vermerk «IT-Submission» \nEingabetermin: \nMontag, 14. Mai 2018 \nbei der Eingabeadresse. \nEingang am Eingabeort massgebend (nicht \nPoststempel) \nOffertöffnung: \nDienstag, 15. Mai 2018 \nDie Offertöffnung ist nicht öffentlich. Es wird ein \nOffertöffnungsprotokoll erstellt. \nVergabedatum: \nVoraussichtlich 4. Juni 2018 \nLieferung: \nVoraussichtlich 30. Juli 2018 \nDie Lieferung erfolgt zentral an eine Anlieferstelle in \nOetwil am See. Das Auspacken der Geräte wie das \nEntsorgen des Verpackungsmaterials erfolgt durch \ndie Schule.  \nGültigkeit der Offerte: \n60 Tage \n",
+                "page": 1,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
-            "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
+            "question": "Wo erfolgt die Lieferung der Geräte?",
             "options": {
-                "A": "An die Schule in Richterswil",
-                "B": "An eine zentrale Lagerhalle in Zürich",
-                "C": "Zentral an eine Anlieferstelle in Oetwil am See",
-                "D": "An die Schulverwaltung in Oetwil am See",
-                "E": "An die Educlix GmbH in Richterswil",
-                "F": "An verschiedene Standorte in Oetwil am See"
+                "A": "An die einzelnen Schulen in Oetwil am See",
+                "B": "An die Schulverwaltung Oetwil am See",
+                "C": "An eine zentrale Anlieferstelle in Oetwil am See",
+                "D": "An die Schwyzerstrasse 28h in Richterswil",
+                "E": "An die Educlix GmbH in Richterswil"
             },
             "correct_answer": "C",
             "version": "reordered",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \nSubmissionsbeschrieb \nIT-Beschaffung Schule Oetwil am See \n \nVergabestelle: \nSchulverwaltung Oetwil am See \nBachtelweg 8a, 8618 Oetwil am See \n+41 (0)43 844 88 88 | schulverwaltung@oetwil.ch \nOrganisator des \nBeschaffungsverfahrens: \nEduclix GmbH \nHansueli Schiller \nSchwyzerstrasse 28h \n8805 Richterswil \n078 641 13 52 | hschiller@educlix.com \nVerfahrensart: \nSubmission, offenes Verfahren \nStaatsvertragsbereich (> 350'000): Nein \nAuftragsart: \nLieferauftrag \n \nBeschaffungsprojekt: \nLieferung von iPads, Macbooks, Apple TV, \nPeripheriegeräten und Zubehör im Rahmen des \nInformatikkonzepts der öffentlichen \nSchule Oetwil am See. Eine detaillierte \nBeschaffungsliste ist Teil dieser Ausschreibung. Die \nInstallation und weitere \nDienstleistungen sind nicht Bestandteil dieser \nAusschreibung. \nEingabeadresse: \nSchulverwaltung Oetwil am See \n«IT-Submission» \nBachtelweg 8a \n8618 Oetwil am See \nEingeschrieben in verschlossenem Umschlag mit \ndem Vermerk «IT-Submission» \nEingabetermin: \nMontag, 14. Mai 2018 \nbei der Eingabeadresse. \nEingang am Eingabeort massgebend (nicht \nPoststempel) \nOffertöffnung: \nDienstag, 15. Mai 2018 \nDie Offertöffnung ist nicht öffentlich. Es wird ein \nOffertöffnungsprotokoll erstellt. \nVergabedatum: \nVoraussichtlich 4. Juni 2018 \nLieferung: \nVoraussichtlich 30. Juli 2018 \nDie Lieferung erfolgt zentral an eine Anlieferstelle in \nOetwil am See. Das Auspacken der Geräte wie das \nEntsorgen des Verpackungsmaterials erfolgt durch \ndie Schule.  \nGültigkeit der Offerte: \n60 Tage \n",
+                "page": 1,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
-            "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
+            "question": "Wo erfolgt die Lieferung der Geräte?",
             "options": {
                 "A": "An die Educlix GmbH in Richterswil",
-                "B": "An verschiedene Standorte in Oetwil am See",
-                "C": "An die Schulverwaltung in Oetwil am See",
-                "D": "An eine zentrale Lagerhalle in Zürich",
-                "E": "An die Schule in Richterswil",
-                "F": "Zentral an eine Anlieferstelle in Oetwil am See"
+                "B": "An eine zentrale Anlieferstelle in Oetwil am See",
+                "C": "An die Schwyzerstrasse 28h in Richterswil",
+                "D": "An die Schulverwaltung Oetwil am See",
+                "E": "Keine der oben genannten Optionen"
             },
-            "correct_answer": "F",
-            "version": "reordered",
-            "language": "DE"
-        },
-        {
-            "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
-            "options": {
-                "A": "An die Educlix GmbH in Richterswil",
-                "B": "An die Schule in Richterswil",
-                "C": "An eine zentrale Lagerhalle in Zürich",
-                "D": "Zentral an eine Anlieferstelle in Oetwil am See",
-                "E": "An die Schulverwaltung in Oetwil am See",
-                "F": "Keine der oben genannten Optionen"
-            },
-            "correct_answer": "D",
+            "correct_answer": "B",
             "version": "nota",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \nSubmissionsbeschrieb \nIT-Beschaffung Schule Oetwil am See \n \nVergabestelle: \nSchulverwaltung Oetwil am See \nBachtelweg 8a, 8618 Oetwil am See \n+41 (0)43 844 88 88 | schulverwaltung@oetwil.ch \nOrganisator des \nBeschaffungsverfahrens: \nEduclix GmbH \nHansueli Schiller \nSchwyzerstrasse 28h \n8805 Richterswil \n078 641 13 52 | hschiller@educlix.com \nVerfahrensart: \nSubmission, offenes Verfahren \nStaatsvertragsbereich (> 350'000): Nein \nAuftragsart: \nLieferauftrag \n \nBeschaffungsprojekt: \nLieferung von iPads, Macbooks, Apple TV, \nPeripheriegeräten und Zubehör im Rahmen des \nInformatikkonzepts der öffentlichen \nSchule Oetwil am See. Eine detaillierte \nBeschaffungsliste ist Teil dieser Ausschreibung. Die \nInstallation und weitere \nDienstleistungen sind nicht Bestandteil dieser \nAusschreibung. \nEingabeadresse: \nSchulverwaltung Oetwil am See \n«IT-Submission» \nBachtelweg 8a \n8618 Oetwil am See \nEingeschrieben in verschlossenem Umschlag mit \ndem Vermerk «IT-Submission» \nEingabetermin: \nMontag, 14. Mai 2018 \nbei der Eingabeadresse. \nEingang am Eingabeort massgebend (nicht \nPoststempel) \nOffertöffnung: \nDienstag, 15. Mai 2018 \nDie Offertöffnung ist nicht öffentlich. Es wird ein \nOffertöffnungsprotokoll erstellt. \nVergabedatum: \nVoraussichtlich 4. Juni 2018 \nLieferung: \nVoraussichtlich 30. Juli 2018 \nDie Lieferung erfolgt zentral an eine Anlieferstelle in \nOetwil am See. Das Auspacken der Geräte wie das \nEntsorgen des Verpackungsmaterials erfolgt durch \ndie Schule.  \nGültigkeit der Offerte: \n60 Tage \n",
+                "page": 1,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
             "true_false_prompt": "Ist das folgende Frage-Antwort Paar Richtig oder Falsch?",
-            "question": "Wo erfolgt die Lieferung der beschafften Geräte?",
-            "answer": "An die Schule in Richterswil",
+            "question": "Wo erfolgt die Lieferung der Geräte?",
+            "answer": "An die Educlix GmbH in Richterswil",
             "label": false,
             "version": "true_false",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \nSubmissionsbeschrieb \nIT-Beschaffung Schule Oetwil am See \n \nVergabestelle: \nSchulverwaltung Oetwil am See \nBachtelweg 8a, 8618 Oetwil am See \n+41 (0)43 844 88 88 | schulverwaltung@oetwil.ch \nOrganisator des \nBeschaffungsverfahrens: \nEduclix GmbH \nHansueli Schiller \nSchwyzerstrasse 28h \n8805 Richterswil \n078 641 13 52 | hschiller@educlix.com \nVerfahrensart: \nSubmission, offenes Verfahren \nStaatsvertragsbereich (> 350'000): Nein \nAuftragsart: \nLieferauftrag \n \nBeschaffungsprojekt: \nLieferung von iPads, Macbooks, Apple TV, \nPeripheriegeräten und Zubehör im Rahmen des \nInformatikkonzepts der öffentlichen \nSchule Oetwil am See. Eine detaillierte \nBeschaffungsliste ist Teil dieser Ausschreibung. Die \nInstallation und weitere \nDienstleistungen sind nicht Bestandteil dieser \nAusschreibung. \nEingabeadresse: \nSchulverwaltung Oetwil am See \n«IT-Submission» \nBachtelweg 8a \n8618 Oetwil am See \nEingeschrieben in verschlossenem Umschlag mit \ndem Vermerk «IT-Submission» \nEingabetermin: \nMontag, 14. Mai 2018 \nbei der Eingabeadresse. \nEingang am Eingabeort massgebend (nicht \nPoststempel) \nOffertöffnung: \nDienstag, 15. Mai 2018 \nDie Offertöffnung ist nicht öffentlich. Es wird ein \nOffertöffnungsprotokoll erstellt. \nVergabedatum: \nVoraussichtlich 4. Juni 2018 \nLieferung: \nVoraussichtlich 30. Juli 2018 \nDie Lieferung erfolgt zentral an eine Anlieferstelle in \nOetwil am See. Das Auspacken der Geräte wie das \nEntsorgen des Verpackungsmaterials erfolgt durch \ndie Schule.  \nGültigkeit der Offerte: \n60 Tage \n",
+                "page": 1,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         }
     ],
     [
         {
-            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
+            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Anbieters verwendet?",
             "options": {
-                "A": "50%",
-                "B": "40%",
-                "C": "30%",
-                "D": "20%"
+                "A": "10%",
+                "B": "5%",
+                "C": "20%",
+                "D": "30%"
+            },
+            "correct_answer": "B",
+            "version": "reordered",
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 2 von 5 \nEignungskriterien: \n- Anbieter ist in der Lage, das geforderte Volumen \ntermingerecht anzubieten. \n- Anbieter hat die organisatorische, technische, \npersonelle und finanzielle Leistungsfähigkeit. \n- Anbieter reicht ein vollständiges Angebot gemäss \nden Anforderungen ein. \n- Anbieter kann die erforderlichen Nachweise \nvorlegen. \n- Termingerechte Eingabe des Angebots. \nNachweise: \n- Referenzen \n- Betreibungsauszug \n- Stellenprozenten total im Betrieb \n- Anzahl Lehrlinge im Betrieb \nZuschlagskriterien: \nPreis 70% \nQualität des Angebotes 20% \nQualität des Anbieters 5% \nLehrlingsausbildung 5% \nVarianten und \nTeilangebote: \nVarianten und Teilangebote sind nicht zulässig. \nAufbau der Offerte: \nUm eine Vergleichbarkeit der Offerten zu \ngewährleisten, muss sich die Offerte nach den in \ndiesen Unterlagen aufgeführte Positionen richten. \n \nDie Kosten sind für jede im Pflichtenheft aufgeführte \nPosition separat in Schweizerfranken und ohne \nMehrwertsteuer auszuweisen. Im Total ist die \nMehrwertsteuer einzurechnen. Neben den Preisen \nsind auch die Garantiebedingungen aufzuführen. \nZusatzinformationen und \nAuskünfte: \nAnfragen können bis Montag, 23. April 2018 über \ndas Forum in SIMAP eingetragen werden. Sie \nwerden im Forum bis Freitag, 27. April 2018 \nbeantwortet. \n \n \n \n",
+                "page": 2,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
+        },
+        {
+            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Anbieters verwendet?",
+            "options": {
+                "A": "30%",
+                "B": "10%",
+                "C": "20%",
+                "D": "5%"
             },
             "correct_answer": "D",
             "version": "reordered",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 2 von 5 \nEignungskriterien: \n- Anbieter ist in der Lage, das geforderte Volumen \ntermingerecht anzubieten. \n- Anbieter hat die organisatorische, technische, \npersonelle und finanzielle Leistungsfähigkeit. \n- Anbieter reicht ein vollständiges Angebot gemäss \nden Anforderungen ein. \n- Anbieter kann die erforderlichen Nachweise \nvorlegen. \n- Termingerechte Eingabe des Angebots. \nNachweise: \n- Referenzen \n- Betreibungsauszug \n- Stellenprozenten total im Betrieb \n- Anzahl Lehrlinge im Betrieb \nZuschlagskriterien: \nPreis 70% \nQualität des Angebotes 20% \nQualität des Anbieters 5% \nLehrlingsausbildung 5% \nVarianten und \nTeilangebote: \nVarianten und Teilangebote sind nicht zulässig. \nAufbau der Offerte: \nUm eine Vergleichbarkeit der Offerten zu \ngewährleisten, muss sich die Offerte nach den in \ndiesen Unterlagen aufgeführte Positionen richten. \n \nDie Kosten sind für jede im Pflichtenheft aufgeführte \nPosition separat in Schweizerfranken und ohne \nMehrwertsteuer auszuweisen. Im Total ist die \nMehrwertsteuer einzurechnen. Neben den Preisen \nsind auch die Garantiebedingungen aufzuführen. \nZusatzinformationen und \nAuskünfte: \nAnfragen können bis Montag, 23. April 2018 über \ndas Forum in SIMAP eingetragen werden. Sie \nwerden im Forum bis Freitag, 27. April 2018 \nbeantwortet. \n \n \n \n",
+                "page": 2,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
-            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
+            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Anbieters verwendet?",
             "options": {
-                "A": "20%",
+                "A": "5%",
                 "B": "30%",
-                "C": "40%",
-                "D": "50%"
+                "C": "20%",
+                "D": "10%"
             },
             "correct_answer": "A",
             "version": "reordered",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 2 von 5 \nEignungskriterien: \n- Anbieter ist in der Lage, das geforderte Volumen \ntermingerecht anzubieten. \n- Anbieter hat die organisatorische, technische, \npersonelle und finanzielle Leistungsfähigkeit. \n- Anbieter reicht ein vollständiges Angebot gemäss \nden Anforderungen ein. \n- Anbieter kann die erforderlichen Nachweise \nvorlegen. \n- Termingerechte Eingabe des Angebots. \nNachweise: \n- Referenzen \n- Betreibungsauszug \n- Stellenprozenten total im Betrieb \n- Anzahl Lehrlinge im Betrieb \nZuschlagskriterien: \nPreis 70% \nQualität des Angebotes 20% \nQualität des Anbieters 5% \nLehrlingsausbildung 5% \nVarianten und \nTeilangebote: \nVarianten und Teilangebote sind nicht zulässig. \nAufbau der Offerte: \nUm eine Vergleichbarkeit der Offerten zu \ngewährleisten, muss sich die Offerte nach den in \ndiesen Unterlagen aufgeführte Positionen richten. \n \nDie Kosten sind für jede im Pflichtenheft aufgeführte \nPosition separat in Schweizerfranken und ohne \nMehrwertsteuer auszuweisen. Im Total ist die \nMehrwertsteuer einzurechnen. Neben den Preisen \nsind auch die Garantiebedingungen aufzuführen. \nZusatzinformationen und \nAuskünfte: \nAnfragen können bis Montag, 23. April 2018 über \ndas Forum in SIMAP eingetragen werden. Sie \nwerden im Forum bis Freitag, 27. April 2018 \nbeantwortet. \n \n \n \n",
+                "page": 2,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
-            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
+            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Anbieters verwendet?",
             "options": {
-                "A": "40%",
-                "B": "50%",
-                "C": "30%",
-                "D": "20%"
-            },
-            "correct_answer": "D",
-            "version": "reordered",
-            "language": "DE"
-        },
-        {
-            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
-            "options": {
-                "A": "30%",
-                "B": "40%",
-                "C": "50%",
+                "A": "20%",
+                "B": "30%",
+                "C": "10%",
                 "D": "Keine der oben genannten Optionen"
             },
             "correct_answer": "D",
             "version": "nota",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 2 von 5 \nEignungskriterien: \n- Anbieter ist in der Lage, das geforderte Volumen \ntermingerecht anzubieten. \n- Anbieter hat die organisatorische, technische, \npersonelle und finanzielle Leistungsfähigkeit. \n- Anbieter reicht ein vollständiges Angebot gemäss \nden Anforderungen ein. \n- Anbieter kann die erforderlichen Nachweise \nvorlegen. \n- Termingerechte Eingabe des Angebots. \nNachweise: \n- Referenzen \n- Betreibungsauszug \n- Stellenprozenten total im Betrieb \n- Anzahl Lehrlinge im Betrieb \nZuschlagskriterien: \nPreis 70% \nQualität des Angebotes 20% \nQualität des Anbieters 5% \nLehrlingsausbildung 5% \nVarianten und \nTeilangebote: \nVarianten und Teilangebote sind nicht zulässig. \nAufbau der Offerte: \nUm eine Vergleichbarkeit der Offerten zu \ngewährleisten, muss sich die Offerte nach den in \ndiesen Unterlagen aufgeführte Positionen richten. \n \nDie Kosten sind für jede im Pflichtenheft aufgeführte \nPosition separat in Schweizerfranken und ohne \nMehrwertsteuer auszuweisen. Im Total ist die \nMehrwertsteuer einzurechnen. Neben den Preisen \nsind auch die Garantiebedingungen aufzuführen. \nZusatzinformationen und \nAuskünfte: \nAnfragen können bis Montag, 23. April 2018 über \ndas Forum in SIMAP eingetragen werden. Sie \nwerden im Forum bis Freitag, 27. April 2018 \nbeantwortet. \n \n \n \n",
+                "page": 2,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
             "true_false_prompt": "Ist das folgende Frage-Antwort Paar Richtig oder Falsch?",
-            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Angebotes verwendet?",
-            "answer": "40%",
+            "question": "Welcher Prozentsatz des Zuschlagskriteriums wird für die Qualität des Anbieters verwendet?",
+            "answer": "30%",
             "label": false,
             "version": "true_false",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 2 von 5 \nEignungskriterien: \n- Anbieter ist in der Lage, das geforderte Volumen \ntermingerecht anzubieten. \n- Anbieter hat die organisatorische, technische, \npersonelle und finanzielle Leistungsfähigkeit. \n- Anbieter reicht ein vollständiges Angebot gemäss \nden Anforderungen ein. \n- Anbieter kann die erforderlichen Nachweise \nvorlegen. \n- Termingerechte Eingabe des Angebots. \nNachweise: \n- Referenzen \n- Betreibungsauszug \n- Stellenprozenten total im Betrieb \n- Anzahl Lehrlinge im Betrieb \nZuschlagskriterien: \nPreis 70% \nQualität des Angebotes 20% \nQualität des Anbieters 5% \nLehrlingsausbildung 5% \nVarianten und \nTeilangebote: \nVarianten und Teilangebote sind nicht zulässig. \nAufbau der Offerte: \nUm eine Vergleichbarkeit der Offerten zu \ngewährleisten, muss sich die Offerte nach den in \ndiesen Unterlagen aufgeführte Positionen richten. \n \nDie Kosten sind für jede im Pflichtenheft aufgeführte \nPosition separat in Schweizerfranken und ohne \nMehrwertsteuer auszuweisen. Im Total ist die \nMehrwertsteuer einzurechnen. Neben den Preisen \nsind auch die Garantiebedingungen aufzuführen. \nZusatzinformationen und \nAuskünfte: \nAnfragen können bis Montag, 23. April 2018 über \ndas Forum in SIMAP eingetragen werden. Sie \nwerden im Forum bis Freitag, 27. April 2018 \nbeantwortet. \n \n \n \n",
+                "page": 2,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         }
     ],
     [
         {
-            "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
+            "question": "Wie viele MacBook Air-Geräte werden benötigt?",
+            "options": {
+                "A": "3 Stück",
+                "B": "1 Stück",
+                "C": "256 Stück",
+                "D": "66 Stück",
+                "E": "174 Stück",
+                "F": "147 Stück"
+            },
+            "correct_answer": "D",
+            "version": "reordered",
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 3 von 5 \nBeschaffungsliste \n \n \nDie Modellangaben basieren auf dem Stand vom April 2018. Sie sind allenfalls den \nMarktentwicklungen anzupassen. \n \nDie Apple-Geräte werden in ein MDM (Mobile Device Management) \neingebunden und benötigen zwingend DEP (Device Enrollment Program) \n \n \n \nPosition 1 \n3 Stück \nMacBook Pro 2.8 GHz i7 / 16GB RAM / 256 SSD / 15\"Space Grau \n \n \nPosition 2 \n1 Stück \nMacBook Pro 2.9 GHz i7 / 16GB RAM / 512 SSD / 15\" Space Grau \n \n \nPosition 3 \n66 Stück \nMacBook Air 1,8 GHz i5 / 8GB RAM / 256GB SSD / 13\"  \n \n \nPosition 4 \n147 Stück \niPad 9.7\" 32GB / Modell 2018 (6. Generation), Wi-Fi, Non-Cellular, Silber \n \n \nPosition 5 \n147 Stück, Zubehör zu Position 5 \nMacally Bookstand Schutzhülle mit Stand- , Sleep- und Wakefunktion, Schwarz \nOder äquivalentes Modell \n \n \nPosition 6 \n174 Stück \niPad 9.7\"128GB / Modell 2018 (6. Generation), Wi-Fi, Non-Cellular, Space Grau \n \n",
+                "page": 3,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
+        },
+        {
+            "question": "Wie viele MacBook Air-Geräte werden benötigt?",
             "options": {
                 "A": "66 Stück",
-                "B": "3 Stück",
-                "C": "147 Stück"
+                "B": "256 Stück",
+                "C": "3 Stück",
+                "D": "174 Stück",
+                "E": "147 Stück",
+                "F": "1 Stück"
             },
             "correct_answer": "A",
             "version": "reordered",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 3 von 5 \nBeschaffungsliste \n \n \nDie Modellangaben basieren auf dem Stand vom April 2018. Sie sind allenfalls den \nMarktentwicklungen anzupassen. \n \nDie Apple-Geräte werden in ein MDM (Mobile Device Management) \neingebunden und benötigen zwingend DEP (Device Enrollment Program) \n \n \n \nPosition 1 \n3 Stück \nMacBook Pro 2.8 GHz i7 / 16GB RAM / 256 SSD / 15\"Space Grau \n \n \nPosition 2 \n1 Stück \nMacBook Pro 2.9 GHz i7 / 16GB RAM / 512 SSD / 15\" Space Grau \n \n \nPosition 3 \n66 Stück \nMacBook Air 1,8 GHz i5 / 8GB RAM / 256GB SSD / 13\"  \n \n \nPosition 4 \n147 Stück \niPad 9.7\" 32GB / Modell 2018 (6. Generation), Wi-Fi, Non-Cellular, Silber \n \n \nPosition 5 \n147 Stück, Zubehör zu Position 5 \nMacally Bookstand Schutzhülle mit Stand- , Sleep- und Wakefunktion, Schwarz \nOder äquivalentes Modell \n \n \nPosition 6 \n174 Stück \niPad 9.7\"128GB / Modell 2018 (6. Generation), Wi-Fi, Non-Cellular, Space Grau \n \n",
+                "page": 3,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
-            "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
+            "question": "Wie viele MacBook Air-Geräte werden benötigt?",
             "options": {
-                "A": "66 Stück",
-                "B": "3 Stück",
-                "C": "147 Stück"
-            },
-            "correct_answer": "A",
-            "version": "reordered",
-            "language": "DE"
-        },
-        {
-            "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
-            "options": {
-                "A": "3 Stück",
+                "A": "1 Stück",
                 "B": "66 Stück",
-                "C": "147 Stück"
+                "C": "256 Stück",
+                "D": "147 Stück",
+                "E": "3 Stück",
+                "F": "174 Stück"
             },
             "correct_answer": "B",
             "version": "reordered",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 3 von 5 \nBeschaffungsliste \n \n \nDie Modellangaben basieren auf dem Stand vom April 2018. Sie sind allenfalls den \nMarktentwicklungen anzupassen. \n \nDie Apple-Geräte werden in ein MDM (Mobile Device Management) \neingebunden und benötigen zwingend DEP (Device Enrollment Program) \n \n \n \nPosition 1 \n3 Stück \nMacBook Pro 2.8 GHz i7 / 16GB RAM / 256 SSD / 15\"Space Grau \n \n \nPosition 2 \n1 Stück \nMacBook Pro 2.9 GHz i7 / 16GB RAM / 512 SSD / 15\" Space Grau \n \n \nPosition 3 \n66 Stück \nMacBook Air 1,8 GHz i5 / 8GB RAM / 256GB SSD / 13\"  \n \n \nPosition 4 \n147 Stück \niPad 9.7\" 32GB / Modell 2018 (6. Generation), Wi-Fi, Non-Cellular, Silber \n \n \nPosition 5 \n147 Stück, Zubehör zu Position 5 \nMacally Bookstand Schutzhülle mit Stand- , Sleep- und Wakefunktion, Schwarz \nOder äquivalentes Modell \n \n \nPosition 6 \n174 Stück \niPad 9.7\"128GB / Modell 2018 (6. Generation), Wi-Fi, Non-Cellular, Space Grau \n \n",
+                "page": 3,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
-            "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
+            "question": "Wie viele MacBook Air-Geräte werden benötigt?",
             "options": {
-                "A": "3 Stück",
-                "B": "66 Stück",
-                "C": "Keine der oben genannten Optionen"
+                "A": "174 Stück",
+                "B": "256 Stück",
+                "C": "3 Stück",
+                "D": "147 Stück",
+                "E": "1 Stück",
+                "F": "Keine der oben genannten Optionen"
             },
-            "correct_answer": "B",
+            "correct_answer": "F",
             "version": "nota",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 3 von 5 \nBeschaffungsliste \n \n \nDie Modellangaben basieren auf dem Stand vom April 2018. Sie sind allenfalls den \nMarktentwicklungen anzupassen. \n \nDie Apple-Geräte werden in ein MDM (Mobile Device Management) \neingebunden und benötigen zwingend DEP (Device Enrollment Program) \n \n \n \nPosition 1 \n3 Stück \nMacBook Pro 2.8 GHz i7 / 16GB RAM / 256 SSD / 15\"Space Grau \n \n \nPosition 2 \n1 Stück \nMacBook Pro 2.9 GHz i7 / 16GB RAM / 512 SSD / 15\" Space Grau \n \n \nPosition 3 \n66 Stück \nMacBook Air 1,8 GHz i5 / 8GB RAM / 256GB SSD / 13\"  \n \n \nPosition 4 \n147 Stück \niPad 9.7\" 32GB / Modell 2018 (6. Generation), Wi-Fi, Non-Cellular, Silber \n \n \nPosition 5 \n147 Stück, Zubehör zu Position 5 \nMacally Bookstand Schutzhülle mit Stand- , Sleep- und Wakefunktion, Schwarz \nOder äquivalentes Modell \n \n \nPosition 6 \n174 Stück \niPad 9.7\"128GB / Modell 2018 (6. Generation), Wi-Fi, Non-Cellular, Space Grau \n \n",
+                "page": 3,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
             "true_false_prompt": "Ist das folgende Frage-Antwort Paar Richtig oder Falsch?",
-            "question": "Wie viele MacBook Air Geräte sollen beschafft werden?",
-            "answer": "66 Stück",
-            "label": true,
+            "question": "Wie viele MacBook Air-Geräte werden benötigt?",
+            "answer": "147 Stück",
+            "label": false,
             "version": "true_false",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 3 von 5 \nBeschaffungsliste \n \n \nDie Modellangaben basieren auf dem Stand vom April 2018. Sie sind allenfalls den \nMarktentwicklungen anzupassen. \n \nDie Apple-Geräte werden in ein MDM (Mobile Device Management) \neingebunden und benötigen zwingend DEP (Device Enrollment Program) \n \n \n \nPosition 1 \n3 Stück \nMacBook Pro 2.8 GHz i7 / 16GB RAM / 256 SSD / 15\"Space Grau \n \n \nPosition 2 \n1 Stück \nMacBook Pro 2.9 GHz i7 / 16GB RAM / 512 SSD / 15\" Space Grau \n \n \nPosition 3 \n66 Stück \nMacBook Air 1,8 GHz i5 / 8GB RAM / 256GB SSD / 13\"  \n \n \nPosition 4 \n147 Stück \niPad 9.7\" 32GB / Modell 2018 (6. Generation), Wi-Fi, Non-Cellular, Silber \n \n \nPosition 5 \n147 Stück, Zubehör zu Position 5 \nMacally Bookstand Schutzhülle mit Stand- , Sleep- und Wakefunktion, Schwarz \nOder äquivalentes Modell \n \n \nPosition 6 \n174 Stück \niPad 9.7\"128GB / Modell 2018 (6. Generation), Wi-Fi, Non-Cellular, Space Grau \n \n",
+                "page": 3,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         }
     ],
     [
         {
-            "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
+            "question": "Wie viele Stück des Apple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) sind in Position 9 aufgeführt?",
             "options": {
-                "A": "AZERTY (FR)",
-                "B": "QWERTZ (DE)",
-                "C": "QWERTZ (CH)",
-                "D": "Keine Angabe",
-                "E": "QWERTY (US)"
+                "A": "8 Stück",
+                "B": "9 Stück",
+                "C": "5 Stück",
+                "D": "15 Stück",
+                "E": "10 Stück",
+                "F": "12 Stück"
+            },
+            "correct_answer": "B",
+            "version": "reordered",
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 4 von 5 \nPosition 7 \n174 Stück, Zubehör zu Position 6 \nZagg Messenger Folio für iPad 9.7\"mit Tastaturlayout QWERTZ (CH) \nOder äquivalentes Modell \n \n \nPosition 8 \n9 Stück \niPad Pro 12,9\" / 256GB / Wi-Fi, Non-Cellular, Space Grau \n \n \nPosition 9 \n9 Stück, Zubehör zu Position 8 \nApple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) \n \n \nPosition 10 \n40 Stück \nHAMA Bluetooth Tastatur KEY2GO \nkompatibel mit iPad, batteriebetrieben, Tastaturlayout QWERTZ (CH) \nOder äquivalentes Modell \n \n \nPosition 11 \n38 Stück \nApple TV 32 GB (4. Generation, NICHT 4K), Artikelnummer: MR912ZD/A \n \n \nPosition 12 \n9 Stück \nTablet Koffer Atesum Atecase 10 zur Aufbewahrung und Ladung von 10 iPad 9.7\" \nOder äquivalentes Modell \n \n \nPosition 13 \n8 Stück \nTablet Koffer Valcabox Station zur Aufbewahren von 6 iPad 9.7\" \nOder äquivalentes Modell \n \n \n \n \n",
+                "page": 4,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
+        },
+        {
+            "question": "Wie viele Stück des Apple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) sind in Position 9 aufgeführt?",
+            "options": {
+                "A": "12 Stück",
+                "B": "10 Stück",
+                "C": "8 Stück",
+                "D": "9 Stück",
+                "E": "15 Stück",
+                "F": "5 Stück"
+            },
+            "correct_answer": "D",
+            "version": "reordered",
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 4 von 5 \nPosition 7 \n174 Stück, Zubehör zu Position 6 \nZagg Messenger Folio für iPad 9.7\"mit Tastaturlayout QWERTZ (CH) \nOder äquivalentes Modell \n \n \nPosition 8 \n9 Stück \niPad Pro 12,9\" / 256GB / Wi-Fi, Non-Cellular, Space Grau \n \n \nPosition 9 \n9 Stück, Zubehör zu Position 8 \nApple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) \n \n \nPosition 10 \n40 Stück \nHAMA Bluetooth Tastatur KEY2GO \nkompatibel mit iPad, batteriebetrieben, Tastaturlayout QWERTZ (CH) \nOder äquivalentes Modell \n \n \nPosition 11 \n38 Stück \nApple TV 32 GB (4. Generation, NICHT 4K), Artikelnummer: MR912ZD/A \n \n \nPosition 12 \n9 Stück \nTablet Koffer Atesum Atecase 10 zur Aufbewahrung und Ladung von 10 iPad 9.7\" \nOder äquivalentes Modell \n \n \nPosition 13 \n8 Stück \nTablet Koffer Valcabox Station zur Aufbewahren von 6 iPad 9.7\" \nOder äquivalentes Modell \n \n \n \n \n",
+                "page": 4,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
+        },
+        {
+            "question": "Wie viele Stück des Apple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) sind in Position 9 aufgeführt?",
+            "options": {
+                "A": "9 Stück",
+                "B": "10 Stück",
+                "C": "15 Stück",
+                "D": "12 Stück",
+                "E": "5 Stück",
+                "F": "8 Stück"
+            },
+            "correct_answer": "A",
+            "version": "reordered",
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 4 von 5 \nPosition 7 \n174 Stück, Zubehör zu Position 6 \nZagg Messenger Folio für iPad 9.7\"mit Tastaturlayout QWERTZ (CH) \nOder äquivalentes Modell \n \n \nPosition 8 \n9 Stück \niPad Pro 12,9\" / 256GB / Wi-Fi, Non-Cellular, Space Grau \n \n \nPosition 9 \n9 Stück, Zubehör zu Position 8 \nApple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) \n \n \nPosition 10 \n40 Stück \nHAMA Bluetooth Tastatur KEY2GO \nkompatibel mit iPad, batteriebetrieben, Tastaturlayout QWERTZ (CH) \nOder äquivalentes Modell \n \n \nPosition 11 \n38 Stück \nApple TV 32 GB (4. Generation, NICHT 4K), Artikelnummer: MR912ZD/A \n \n \nPosition 12 \n9 Stück \nTablet Koffer Atesum Atecase 10 zur Aufbewahrung und Ladung von 10 iPad 9.7\" \nOder äquivalentes Modell \n \n \nPosition 13 \n8 Stück \nTablet Koffer Valcabox Station zur Aufbewahren von 6 iPad 9.7\" \nOder äquivalentes Modell \n \n \n \n \n",
+                "page": 4,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
+        },
+        {
+            "question": "Wie viele Stück des Apple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) sind in Position 9 aufgeführt?",
+            "options": {
+                "A": "8 Stück",
+                "B": "12 Stück",
+                "C": "9 Stück",
+                "D": "5 Stück",
+                "E": "10 Stück",
+                "F": "Keine der oben genannten Optionen"
             },
             "correct_answer": "C",
-            "version": "reordered",
-            "language": "DE"
-        },
-        {
-            "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
-            "options": {
-                "A": "AZERTY (FR)",
-                "B": "Keine Angabe",
-                "C": "QWERTY (US)",
-                "D": "QWERTZ (DE)",
-                "E": "QWERTZ (CH)"
-            },
-            "correct_answer": "E",
-            "version": "reordered",
-            "language": "DE"
-        },
-        {
-            "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
-            "options": {
-                "A": "AZERTY (FR)",
-                "B": "QWERTZ (CH)",
-                "C": "Keine Angabe",
-                "D": "QWERTY (US)",
-                "E": "QWERTZ (DE)"
-            },
-            "correct_answer": "B",
-            "version": "reordered",
-            "language": "DE"
-        },
-        {
-            "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
-            "options": {
-                "A": "AZERTY (FR)",
-                "B": "QWERTY (US)",
-                "C": "QWERTZ (DE)",
-                "D": "Keine Angabe",
-                "E": "Keine der oben genannten Optionen"
-            },
-            "correct_answer": "E",
             "version": "nota",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 4 von 5 \nPosition 7 \n174 Stück, Zubehör zu Position 6 \nZagg Messenger Folio für iPad 9.7\"mit Tastaturlayout QWERTZ (CH) \nOder äquivalentes Modell \n \n \nPosition 8 \n9 Stück \niPad Pro 12,9\" / 256GB / Wi-Fi, Non-Cellular, Space Grau \n \n \nPosition 9 \n9 Stück, Zubehör zu Position 8 \nApple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) \n \n \nPosition 10 \n40 Stück \nHAMA Bluetooth Tastatur KEY2GO \nkompatibel mit iPad, batteriebetrieben, Tastaturlayout QWERTZ (CH) \nOder äquivalentes Modell \n \n \nPosition 11 \n38 Stück \nApple TV 32 GB (4. Generation, NICHT 4K), Artikelnummer: MR912ZD/A \n \n \nPosition 12 \n9 Stück \nTablet Koffer Atesum Atecase 10 zur Aufbewahrung und Ladung von 10 iPad 9.7\" \nOder äquivalentes Modell \n \n \nPosition 13 \n8 Stück \nTablet Koffer Valcabox Station zur Aufbewahren von 6 iPad 9.7\" \nOder äquivalentes Modell \n \n \n \n \n",
+                "page": 4,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
             "true_false_prompt": "Ist das folgende Frage-Antwort Paar Richtig oder Falsch?",
-            "question": "Welches Tastaturlayout hat die Apple Smart Keyboard für das 12,9\" iPad Pro?",
-            "answer": "QWERTY (US)",
+            "question": "Wie viele Stück des Apple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) sind in Position 9 aufgeführt?",
+            "answer": "15 Stück",
             "label": false,
             "version": "true_false",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 4 von 5 \nPosition 7 \n174 Stück, Zubehör zu Position 6 \nZagg Messenger Folio für iPad 9.7\"mit Tastaturlayout QWERTZ (CH) \nOder äquivalentes Modell \n \n \nPosition 8 \n9 Stück \niPad Pro 12,9\" / 256GB / Wi-Fi, Non-Cellular, Space Grau \n \n \nPosition 9 \n9 Stück, Zubehör zu Position 8 \nApple Smart Keyboard für das 12,9\" iPad Pro, Tastaturlayout QWERTZ (CH) \n \n \nPosition 10 \n40 Stück \nHAMA Bluetooth Tastatur KEY2GO \nkompatibel mit iPad, batteriebetrieben, Tastaturlayout QWERTZ (CH) \nOder äquivalentes Modell \n \n \nPosition 11 \n38 Stück \nApple TV 32 GB (4. Generation, NICHT 4K), Artikelnummer: MR912ZD/A \n \n \nPosition 12 \n9 Stück \nTablet Koffer Atesum Atecase 10 zur Aufbewahrung und Ladung von 10 iPad 9.7\" \nOder äquivalentes Modell \n \n \nPosition 13 \n8 Stück \nTablet Koffer Valcabox Station zur Aufbewahren von 6 iPad 9.7\" \nOder äquivalentes Modell \n \n \n \n \n",
+                "page": 4,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         }
     ],
     [
         {
             "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
             "options": {
-                "A": "2 Stück",
-                "B": "4 Stück",
-                "C": "6 Stück"
+                "A": "10 Stück",
+                "B": "2 Stück",
+                "C": "12 Stück",
+                "D": "6 Stück",
+                "E": "8 Stück",
+                "F": "4 Stück"
             },
-            "correct_answer": "B",
+            "correct_answer": "F",
             "version": "reordered",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 5 von 5 \nPosition 14 \n8 Stück \nLadestation Anker PowerPort +6, USB Ladegerät für mindestens 6 iPads \nOder äquivalentes Modell \n \n \nPosition 15 \n3 Stück \nMonitor Philips 273V7QDAB \nAnwendungsbereich Office/Business, 27“, 16:9, 1920x1080, HDMI-Anschluss, \ninternes Netzteil, Lautsprecher, neigbar (oder höhenverstellbar), mindestens \nEnergieeffizienzklasse B \nOder äquivalentes Modell \n \n \nPosition 16 \n1 Stück \nMonitor Philips 288P6LJEB/00 \nAnwendungsbereich Office/Business, 28“, 16:9, 3840 x 2160, USB-3.0-Hub, HDMI-\nAnschluss, DisplayPort, Stereo-Lautsprecher, neigbar (oder höhenverstellbar), \nmindestens Effizienzklasse C \nOder äquivalentes Modell \n \n \nPosition 17 \n4 Stück \nSatechi - USB C Multiport Adapter \nUSB-C / 4K HDMI / 2x USB 3.0 Anschluss (ST-CMAM), Space Grau \nOder äquivalentes Modell \n \n \nPosition 18 \n4 Stück (falls in Positionen 16 und 17 nicht im Lieferumfang enthalten) \nHDMI-Kabel \nLänge1m \n \n \nPosition 19 \nKosten für Transport sämtlicher Geräte an zentralen Standort in Oetwil am See. Das \nAuspacken und Entsorgen der Verpackungen erfolgt durch die Schule. \n \n",
+                "page": 5,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
             "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
             "options": {
-                "A": "4 Stück",
-                "B": "6 Stück",
-                "C": "2 Stück"
+                "A": "10 Stück",
+                "B": "2 Stück",
+                "C": "6 Stück",
+                "D": "4 Stück",
+                "E": "12 Stück",
+                "F": "8 Stück"
             },
-            "correct_answer": "A",
+            "correct_answer": "D",
             "version": "reordered",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 5 von 5 \nPosition 14 \n8 Stück \nLadestation Anker PowerPort +6, USB Ladegerät für mindestens 6 iPads \nOder äquivalentes Modell \n \n \nPosition 15 \n3 Stück \nMonitor Philips 273V7QDAB \nAnwendungsbereich Office/Business, 27“, 16:9, 1920x1080, HDMI-Anschluss, \ninternes Netzteil, Lautsprecher, neigbar (oder höhenverstellbar), mindestens \nEnergieeffizienzklasse B \nOder äquivalentes Modell \n \n \nPosition 16 \n1 Stück \nMonitor Philips 288P6LJEB/00 \nAnwendungsbereich Office/Business, 28“, 16:9, 3840 x 2160, USB-3.0-Hub, HDMI-\nAnschluss, DisplayPort, Stereo-Lautsprecher, neigbar (oder höhenverstellbar), \nmindestens Effizienzklasse C \nOder äquivalentes Modell \n \n \nPosition 17 \n4 Stück \nSatechi - USB C Multiport Adapter \nUSB-C / 4K HDMI / 2x USB 3.0 Anschluss (ST-CMAM), Space Grau \nOder äquivalentes Modell \n \n \nPosition 18 \n4 Stück (falls in Positionen 16 und 17 nicht im Lieferumfang enthalten) \nHDMI-Kabel \nLänge1m \n \n \nPosition 19 \nKosten für Transport sämtlicher Geräte an zentralen Standort in Oetwil am See. Das \nAuspacken und Entsorgen der Verpackungen erfolgt durch die Schule. \n \n",
+                "page": 5,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
             "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
             "options": {
-                "A": "2 Stück",
-                "B": "4 Stück",
-                "C": "6 Stück"
+                "A": "8 Stück",
+                "B": "10 Stück",
+                "C": "6 Stück",
+                "D": "4 Stück",
+                "E": "2 Stück",
+                "F": "12 Stück"
             },
-            "correct_answer": "B",
+            "correct_answer": "D",
             "version": "reordered",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 5 von 5 \nPosition 14 \n8 Stück \nLadestation Anker PowerPort +6, USB Ladegerät für mindestens 6 iPads \nOder äquivalentes Modell \n \n \nPosition 15 \n3 Stück \nMonitor Philips 273V7QDAB \nAnwendungsbereich Office/Business, 27“, 16:9, 1920x1080, HDMI-Anschluss, \ninternes Netzteil, Lautsprecher, neigbar (oder höhenverstellbar), mindestens \nEnergieeffizienzklasse B \nOder äquivalentes Modell \n \n \nPosition 16 \n1 Stück \nMonitor Philips 288P6LJEB/00 \nAnwendungsbereich Office/Business, 28“, 16:9, 3840 x 2160, USB-3.0-Hub, HDMI-\nAnschluss, DisplayPort, Stereo-Lautsprecher, neigbar (oder höhenverstellbar), \nmindestens Effizienzklasse C \nOder äquivalentes Modell \n \n \nPosition 17 \n4 Stück \nSatechi - USB C Multiport Adapter \nUSB-C / 4K HDMI / 2x USB 3.0 Anschluss (ST-CMAM), Space Grau \nOder äquivalentes Modell \n \n \nPosition 18 \n4 Stück (falls in Positionen 16 und 17 nicht im Lieferumfang enthalten) \nHDMI-Kabel \nLänge1m \n \n \nPosition 19 \nKosten für Transport sämtlicher Geräte an zentralen Standort in Oetwil am See. Das \nAuspacken und Entsorgen der Verpackungen erfolgt durch die Schule. \n \n",
+                "page": 5,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
             "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
             "options": {
-                "A": "6 Stück",
+                "A": "8 Stück",
                 "B": "4 Stück",
-                "C": "Keine der oben genannten Optionen"
+                "C": "6 Stück",
+                "D": "10 Stück",
+                "E": "2 Stück",
+                "F": "Keine der oben genannten Optionen"
             },
             "correct_answer": "B",
             "version": "nota",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 5 von 5 \nPosition 14 \n8 Stück \nLadestation Anker PowerPort +6, USB Ladegerät für mindestens 6 iPads \nOder äquivalentes Modell \n \n \nPosition 15 \n3 Stück \nMonitor Philips 273V7QDAB \nAnwendungsbereich Office/Business, 27“, 16:9, 1920x1080, HDMI-Anschluss, \ninternes Netzteil, Lautsprecher, neigbar (oder höhenverstellbar), mindestens \nEnergieeffizienzklasse B \nOder äquivalentes Modell \n \n \nPosition 16 \n1 Stück \nMonitor Philips 288P6LJEB/00 \nAnwendungsbereich Office/Business, 28“, 16:9, 3840 x 2160, USB-3.0-Hub, HDMI-\nAnschluss, DisplayPort, Stereo-Lautsprecher, neigbar (oder höhenverstellbar), \nmindestens Effizienzklasse C \nOder äquivalentes Modell \n \n \nPosition 17 \n4 Stück \nSatechi - USB C Multiport Adapter \nUSB-C / 4K HDMI / 2x USB 3.0 Anschluss (ST-CMAM), Space Grau \nOder äquivalentes Modell \n \n \nPosition 18 \n4 Stück (falls in Positionen 16 und 17 nicht im Lieferumfang enthalten) \nHDMI-Kabel \nLänge1m \n \n \nPosition 19 \nKosten für Transport sämtlicher Geräte an zentralen Standort in Oetwil am See. Das \nAuspacken und Entsorgen der Verpackungen erfolgt durch die Schule. \n \n",
+                "page": 5,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         },
         {
             "true_false_prompt": "Ist das folgende Frage-Antwort Paar Richtig oder Falsch?",
             "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht im Lieferumfang von Position 16 und 17 enthalten sind?",
-            "answer": "2 Stück",
+            "answer": "10 Stück",
             "label": false,
             "version": "true_false",
-            "language": "DE"
+            "language": "DE",
+            "context": {
+                "file": "169436/docs/180404_it_oetwil.pdf",
+                "text": " \n \n \n \nSeite 5 von 5 \nPosition 14 \n8 Stück \nLadestation Anker PowerPort +6, USB Ladegerät für mindestens 6 iPads \nOder äquivalentes Modell \n \n \nPosition 15 \n3 Stück \nMonitor Philips 273V7QDAB \nAnwendungsbereich Office/Business, 27“, 16:9, 1920x1080, HDMI-Anschluss, \ninternes Netzteil, Lautsprecher, neigbar (oder höhenverstellbar), mindestens \nEnergieeffizienzklasse B \nOder äquivalentes Modell \n \n \nPosition 16 \n1 Stück \nMonitor Philips 288P6LJEB/00 \nAnwendungsbereich Office/Business, 28“, 16:9, 3840 x 2160, USB-3.0-Hub, HDMI-\nAnschluss, DisplayPort, Stereo-Lautsprecher, neigbar (oder höhenverstellbar), \nmindestens Effizienzklasse C \nOder äquivalentes Modell \n \n \nPosition 17 \n4 Stück \nSatechi - USB C Multiport Adapter \nUSB-C / 4K HDMI / 2x USB 3.0 Anschluss (ST-CMAM), Space Grau \nOder äquivalentes Modell \n \n \nPosition 18 \n4 Stück (falls in Positionen 16 und 17 nicht im Lieferumfang enthalten) \nHDMI-Kabel \nLänge1m \n \n \nPosition 19 \nKosten für Transport sämtlicher Geräte an zentralen Standort in Oetwil am See. Das \nAuspacken und Entsorgen der Verpackungen erfolgt durch die Schule. \n \n",
+                "page": 5,
+                "division_number": 30,
+                "division_title": "Office and computing machinery, equipment and supplies except furniture and software packages",
+                "language": "DE"
+            }
         }
     ]
 ]
