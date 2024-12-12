@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Load MCQs</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  .container { max-width: 600px; margin: auto; }
+  .question { font-size: 1.2em; font-weight: bold; margin-bottom: 10px; }
+  .option { margin: 5px 0; }
+  .context-block {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .enhanced-block {
+    background: #e8f8f5;
+    border: 1px solid #b2dfdb;
+    padding: 10px;
+    margin-top: 20px;
+}
+.enhanced-block .question {
+    margin-top: 20px;
+}
+  .note-block {
+    background: #ffffcc;
+    border: 1px solid #999;
+    padding: 10px;
+    margin-top: 20px;
+    display: none;
+  }
+  .buttons { margin-top: 20px; }
+  button { margin-right: 10px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="question-block">Loading...</div>
+  <div id="note-block" class="note-block">
+    <h4>Notes</h4>
+    <textarea id="note-area" rows="4" style="width:100%;"></textarea>
+    <button id="save-note-btn">Save Note</button>
+  </div>
+  <div class="buttons">
+    <button id="prev-btn" disabled>Previous</button>
+    <button id="next-btn" disabled>Next</button>
+    <button id="toggle-note-btn">Toggle Notes ON/OFF</button>
+    <button id="download-btn">Download JSON with Notes</button>
+  </div>
+</div>
+
+<script>
+  let data = [];
+  let enhancedData = [];
+  let currentIndex = 0;
+
+  const questionBlock = document.getElementById('question-block');
+  const noteBlock = document.getElementById('note-block');
+  const noteArea = document.getElementById('note-area');
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+  const toggleNoteBtn = document.getElementById('toggle-note-btn');
+  const saveNoteBtn = document.getElementById('save-note-btn');
+  const downloadBtn = document.getElementById('download-btn');
+
+  // Fetch the data from the MCQs.json file
+  fetch('output/MCQs.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok ' + response.statusText);
+      }
+      return response.json();
+    })
+    .then(jsonData => {
+      data = jsonData;
+      // Fetch the enhanced questions
+      return fetch('output/enhanced.json');
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok ' + response.statusText);
+      }
+      return response.json();
+    })
+    .then(jsonEnhancedData => {
+      // Ensure enhancedData is a list of lists
+      if (!Array.isArray(jsonEnhancedData)) {
+        throw new Error('Enhanced data must be a list.');
+      }
+      enhancedData = jsonEnhancedData.map(item => Array.isArray(item) ? item : []);
+
+      // Enable buttons once data is loaded
+      if (data.length > 0) {
+        prevBtn.disabled = false;
+        nextBtn.disabled = false;
+        renderQuestion(currentIndex);
+      } else {
+        questionBlock.innerHTML = "<p>No questions available.</p>";
+      }
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+      questionBlock.innerHTML = `<p>Failed to load questions: ${error.message}</p>`;
+    });
+
+  function renderQuestion(index) {
+    const item = data[index] || {};
+    const enhancedItems = Array.isArray(enhancedData[index]) ? enhancedData[index] : [];
+
+    if (!item.question) {
+      questionBlock.innerHTML = "<p>No question data available for this index.</p>";
+      return;
+    }
+
+    let html = `<div class="question">${item.question}</div>`;
+    html += `<div class="options">`;
+
+    if (item.options) {
+      for (const [key, value] of Object.entries(item.options)) {
+        html += `<div class="option"><strong>${key}</strong>: ${value}</div>`;
+      }
+    } else {
+      html += `<div class="option">No options available</div>`;
+    }
+
+    html += `</div>`;
+    html += `<div><strong>Correct Answer:</strong> ${item.correct_answer || "N/A"}</div>`;
+
+    if (item.context) {
+      html += `<div class="context-block">`;
+      html += `<h4>Context</h4>`;
+      html += `<p><strong>File:</strong> ${item.context.file || "N/A"}</p>`;
+      html += `<p><strong>Page:</strong> ${item.context.page || "N/A"}</p>`;
+      html += `<p><strong>Division Number:</strong> ${item.context.division_number || "N/A"}</p>`;
+      html += `<p><strong>Division Title:</strong> ${item.context.division_title || "N/A"}</p>`;
+      html += `<p><strong>Language:</strong> ${item.context.language || "N/A"}</p>`;
+      html += `</div>`;
+    } else {
+      html += `<div class="context-block">No context available</div>`;
+    }
+
+    // Render enhanced questions
+    if (enhancedItems.length > 0) {
+      html += `<div class="enhanced-block">`;
+      html += `<h4>Enhanced Questions</h4>`;
+      enhancedItems.forEach(enhanced => {
+        html += `<div class="question">${enhanced.question || "No question text"}</div>`;
+        if (enhanced.version === "true_false") {
+          html += `<div><strong>Label:</strong> ${enhanced.label === true ? 'True' : enhanced.label === false ? 'False' : 'N/A'}</div>`;
+        } else {
+          html += `<div class="options">`;
+          if (enhanced.options) {
+            for (const [key, value] of Object.entries(enhanced.options)) {
+              html += `<div class="option"><strong>${key}</strong>: ${value}</div>`;
+            }
+          } else {
+            html += `<div class="option">No options available</div>`;
+          }
+          html += `</div>`;
+          html += `<div><strong>Correct Answer:</strong> ${enhanced.correct_answer || "N/A"}</div>`;
+        }
+        html += `<div><strong>Version:</strong> ${enhanced.version || "N/A"}</div>`;
+      });
+      html += `</div>`;
+    } else {
+      html += `<div class="enhanced-block">No enhanced questions available</div>`;
+    }
+
+    questionBlock.innerHTML = html;
+
+    // Update note block
+    noteArea.value = item.notes ? item.notes.join('\n') : '';
+  }
+
+  prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      renderQuestion(currentIndex);
+    }
+    updateButtonStates();
+  });
+
+  nextBtn.addEventListener('click', () => {
+    currentIndex++;
+    if (currentIndex < data.length) {
+      renderQuestion(currentIndex);
+    } else {
+      // If we go beyond the last question:
+      questionBlock.innerHTML = "<p>No more questions available.</p>";
+    }
+    updateButtonStates();
+  });
+
+  toggleNoteBtn.addEventListener('click', () => {
+    noteBlock.style.display = noteBlock.style.display === 'none' ? 'block' : 'none';
+  });
+
+  saveNoteBtn.addEventListener('click', () => {
+    if (!data[currentIndex].notes) {
+      data[currentIndex].notes = [];
+    }
+    data[currentIndex].notes.push(noteArea.value);
+    alert('Note saved!');
+  });
+
+  downloadBtn.addEventListener('click', () => {
+    const jsonData = JSON.stringify(data, null, 2);
+    const blob = new Blob([jsonData], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'MCQs_with_notes.json';
+    link.click();
+  });
+
+  function updateButtonStates() {
+    // Disable Previous if we're at the first question
+    prevBtn.disabled = currentIndex === 0;
+    // Disable Next if we've reached beyond the last question
+    nextBtn.disabled = currentIndex >= data.length - 1;
+  }
+</script>
+</body>
+</html>
