@@ -393,6 +393,39 @@ button:hover {
     // Disable Next if we've reached beyond the last question
     nextBtn.disabled = currentIndex >= data.length - 1;
   }
+
+  // Bind buttons to move across questions left and right arrow and to toggle EQ use right shift
+  document.addEventListener('keydown', (event) => {
+  if (event.key === 'ArrowRight') {
+    if (!nextBtn.disabled) {
+      currentIndex++;
+      if (currentIndex < data.length) {
+        renderQuestion(currentIndex);
+      } else {
+        questionBlock.innerHTML = "<p>No more questions available.</p>";
+      }
+      updateButtonStates();
+    }
+    } else if (event.key === 'ArrowLeft') {
+      if (!prevBtn.disabled) {
+        if (currentIndex > 0) {
+          currentIndex--;
+          renderQuestion(currentIndex);
+        }
+        updateButtonStates();
+      }
+    } else if (event.code === 'ShiftRight') {
+      // Toggle the enhanced section
+      const enhancedBlock = document.getElementById('enhanced-block');
+      if (enhancedBlock) {
+        enhancedBlock.classList.toggle('collapsed');
+        const toggleButton = enhancedBlock.querySelector('.toggle-btn');
+        if (toggleButton) {
+          toggleButton.textContent = enhancedBlock.classList.contains('collapsed') ? 'Show' : 'Hide';
+        }
+      }
+    }
+  });
 </script>
 </body>
 </html>
