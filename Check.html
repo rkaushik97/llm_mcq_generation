@@ -5,34 +5,105 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Load MCQs</title>
 <style>
-  body { font-family: Arial, sans-serif; margin: 20px; }
-  .container { max-width: 600px; margin: auto; }
-  .question { font-size: 1.2em; font-weight: bold; margin-bottom: 10px; }
-  .option { margin: 5px 0; }
-  .context-block {
-    background: #f9f9f9;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  .enhanced-block {
-    background: #e8f8f5;
-    border: 1px solid #b2dfdb;
-    padding: 10px;
-    margin-top: 20px;
+  body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #ffffff;
+  color: #000000;
 }
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.question {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.option {
+  margin: 5px 0;
+}
+
+.context-block {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.enhanced-block {
+  background: #e8f8f5;
+  border: 1px solid #b2dfdb;
+  padding: 10px;
+  margin-top: 20px;
+}
+
 .enhanced-block .question {
-    margin-top: 20px;
+  margin-top: 20px;
 }
-  .note-block {
-    background: #ffffcc;
-    border: 1px solid #999;
-    padding: 10px;
-    margin-top: 20px;
-    display: none;
+
+.note-block {
+  background: #ffffcc;
+  border: 1px solid #999;
+  padding: 10px;
+  margin-top: 20px;
+  display: none;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin-right: 10px;
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #121212;
+    color: #e0e0e0;
   }
-  .buttons { margin-top: 20px; }
-  button { margin-right: 10px; }
+
+  .context-block {
+    background: #2a2a2a;
+    border: 1px solid #444;
+  }
+
+  .enhanced-block {
+    background: #1e1e1e;
+    border: 1px solid #555;
+  }
+
+  .note-block {
+    background: #2b2b00;
+    border: 1px solid #666;
+  }
+
+  button {
+    background: #3a3a3a;
+    color: #ffffff;
+  }
+
+  button:hover {
+    background: #555555;
+  }
+}
+
 </style>
 </head>
 <body>
