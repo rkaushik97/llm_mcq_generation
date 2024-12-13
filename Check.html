@@ -219,7 +219,8 @@ button:hover {
       enhancedItems.forEach(enhanced => {
         html += `<div class="question">${enhanced.question || "No question text"}</div>`;
         if (enhanced.version === "true_false") {
-          html += `<div><strong>Label:</strong> ${enhanced.label === true ? 'True' : enhanced.label === false ? 'False' : 'N/A'}</div>`;
+          html += `<div><strong>Statement:</strong> ${enhanced.answer || "N/A"}</div>`;
+          html += `<div><strong>Correct Answer:</strong> ${enhanced.label === true ? 'True' : enhanced.label === false ? 'False' : 'N/A'}</div>`;
         } else {
           html += `<div class="options">`;
           if (enhanced.options) {
