@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Load MCQs</title>
 <style>
-  body {
+body {
   font-family: Arial, sans-serif;
   margin: 20px;
   background: #ffffff;
@@ -39,26 +39,21 @@
   border: 1px solid #b2dfdb;
   padding: 10px;
   margin-top: 20px;
+  position: relative;
 }
 
-.enhanced-block .question {
-  margin-top: 20px;
-}
-
-.note-block {
-  background: #ffffcc;
-  border: 1px solid #999;
-  padding: 10px;
-  margin-top: 20px;
+.enhanced-block.collapsed .content {
   display: none;
 }
 
-.buttons {
-  margin-top: 20px;
+.enhanced-block h4 {
+  display: flex;
+  margin: 0 0 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-button {
-  margin-right: 10px;
+.enhanced-block .toggle-btn {
   background: #007bff;
   color: #ffffff;
   border: none;
@@ -66,10 +61,67 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s ease;
+  float: right;
+}
+
+.enhanced-block .question {
+  margin-top: 30px;
+}
+
+.enhanced-block .options {
+  margin-bottom: 20px;
+}
+
+.enhanced-block .toggle-btn:hover {
+  background: #0056b3;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  flex: 1 1 calc(20% - 10px);
+  max-width: 120px;
 }
 
 button:hover {
   background: #0056b3;
+}
+
+.thumb {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  flex: 1 1 calc(20% - 10px);
+  max-width: 120px;
+}
+
+.thumb:hover {
+  background: #ddd;
+}
+
+.thumb.correct {
+  background: #28a745;
+  color: #ffffff;
+}
+
+.thumb.wrong {
+  background: #dc3545;
+  color: #ffffff;
 }
 
 /* Dark Mode Support */
@@ -89,9 +141,13 @@ button:hover {
     border: 1px solid #555;
   }
 
-  .note-block {
-    background: #2b2b00;
-    border: 1px solid #666;
+  .enhanced-block .toggle-btn {
+    background: #3a3a3a;
+    color: #ffffff;
+  }
+
+  .enhanced-block .toggle-btn:hover {
+    background: #555555;
   }
 
   button {
@@ -102,23 +158,37 @@ button:hover {
   button:hover {
     background: #555555;
   }
-}
 
+  .thumb {
+    background: #3a3a3a;
+    color: #ffffff;
+  }
+
+  .thumb:hover {
+    background: #555555;
+  }
+
+  .thumb.correct {
+    background: #28a745;
+    color: #ffffff;
+  }
+
+  .thumb.wrong {
+    background: #dc3545;
+    color: #ffffff;
+  }
+}
 </style>
 </head>
 <body>
 <div class="container">
   <div id="question-block">Loading...</div>
-  <div id="note-block" class="note-block">
-    <h4>Notes</h4>
-    <textarea id="note-area" rows="4" style="width:100%;"></textarea>
-    <button id="save-note-btn">Save Note</button>
-  </div>
   <div class="buttons">
     <button id="prev-btn" disabled>Previous</button>
     <button id="next-btn" disabled>Next</button>
-    <button id="toggle-note-btn">Toggle Notes ON/OFF</button>
-    <button id="download-btn">Download JSON with Notes</button>
+    <button id="thumb-up" class="thumb">👍</button>
+    <button id="thumb-down" class="thumb">👎</button>
+    <button id="download-btn">Download</button>
   </div>
 </div>
 
@@ -126,15 +196,15 @@ button:hover {
   let data = [];
   let enhancedData = [];
   let currentIndex = 0;
+  let correctQuestions = [];
+  let wrongQuestions = [];
 
   const questionBlock = document.getElementById('question-block');
-  const noteBlock = document.getElementById('note-block');
-  const noteArea = document.getElementById('note-area');
   const prevBtn = document.getElementById('prev-btn');
   const nextBtn = document.getElementById('next-btn');
-  const toggleNoteBtn = document.getElementById('toggle-note-btn');
-  const saveNoteBtn = document.getElementById('save-note-btn');
   const downloadBtn = document.getElementById('download-btn');
+  const thumbUp = document.getElementById('thumb-up');
+  const thumbDown = document.getElementById('thumb-down');
 
   // Fetch the data from the MCQs.json file
   fetch('output/MCQs.json')
@@ -212,14 +282,14 @@ button:hover {
       html += `<div class="context-block">No context available</div>`;
     }
 
-    // Render enhanced questions
     if (enhancedItems.length > 0) {
-      html += `<div class="enhanced-block">`;
-      html += `<h4>Enhanced Questions</h4>`;
+      html += `<div class="enhanced-block collapsed" id="enhanced-block">`;
+      html += `<h4>Enhanced Questions <button class="toggle-btn" onclick="toggleEnhanced()">Show</button></h4>`;
+      html += `<div class="content">`;
       enhancedItems.forEach(enhanced => {
         html += `<div class="question">${enhanced.question || "No question text"}</div>`;
         if (enhanced.version === "true_false") {
-          html += `<div><strong>Statement:</strong> ${enhanced.answer || "N/A"}</div>`;
+          html += `<div class="options"><strong>Statement:</strong> ${enhanced.answer || "N/A"}</div>`;
           html += `<div><strong>Correct Answer:</strong> ${enhanced.label === true ? 'True' : enhanced.label === false ? 'False' : 'N/A'}</div>`;
         } else {
           html += `<div class="options">`;
@@ -236,15 +306,53 @@ button:hover {
         html += `<div><strong>Version:</strong> ${enhanced.version || "N/A"}</div>`;
       });
       html += `</div>`;
+      html += `</div>`;
     } else {
       html += `<div class="enhanced-block">No enhanced questions available</div>`;
     }
 
     questionBlock.innerHTML = html;
-
-    // Update note block
-    noteArea.value = item.notes ? item.notes.join('\n') : '';
+    updateThumbButtons();
   }
+
+  function toggleEnhanced() {
+    const enhancedBlock = document.getElementById('enhanced-block');
+    enhancedBlock.classList.toggle('collapsed');
+    const toggleButton = enhancedBlock.querySelector('.toggle-btn');
+    if (enhancedBlock.classList.contains('collapsed')) {
+      toggleButton.textContent = 'Show';
+    } else {
+      toggleButton.textContent = 'Hide';
+    }
+}
+
+
+  function updateThumbButtons() {
+    thumbUp.classList.remove('correct');
+    thumbDown.classList.remove('wrong');
+
+    if (correctQuestions.includes(currentIndex)) {
+      thumbUp.classList.add('correct');
+    } else if (wrongQuestions.includes(currentIndex)) {
+      thumbDown.classList.add('wrong');
+    }
+  }
+
+  thumbUp.addEventListener('click', () => {
+    if (!correctQuestions.includes(currentIndex)) {
+      correctQuestions.push(currentIndex);
+      wrongQuestions = wrongQuestions.filter(index => index !== currentIndex);
+      updateThumbButtons();
+    }
+  });
+
+  thumbDown.addEventListener('click', () => {
+    if (!wrongQuestions.includes(currentIndex)) {
+      wrongQuestions.push(currentIndex);
+      correctQuestions = correctQuestions.filter(index => index !== currentIndex);
+      updateThumbButtons();
+    }
+  });
 
   prevBtn.addEventListener('click', () => {
     if (currentIndex > 0) {
@@ -265,25 +373,17 @@ button:hover {
     updateButtonStates();
   });
 
-  toggleNoteBtn.addEventListener('click', () => {
-    noteBlock.style.display = noteBlock.style.display === 'none' ? 'block' : 'none';
-  });
-
-  saveNoteBtn.addEventListener('click', () => {
-    if (!data[currentIndex].notes) {
-      data[currentIndex].notes = [];
-    }
-    data[currentIndex].notes.push(noteArea.value);
-    alert('Note saved!');
-  });
-
   downloadBtn.addEventListener('click', () => {
-    const jsonData = JSON.stringify(data, null, 2);
-    const blob = new Blob([jsonData], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
+    const correctData = correctQuestions.map(index => data[index]);
+    const wrongData = wrongQuestions.map(index => data[index]);
+
+    const blob = new Blob([
+      JSON.stringify({ correct: correctData, wrong: wrongData }, null, 2)
+    ], { type: 'application/json' });
+
     const link = document.createElement('a');
-    link.href = url;
-    link.download = 'MCQs_with_notes.json';
+    link.href = URL.createObjectURL(blob);
+    link.download = 'MCQs_feedback.json';
     link.click();
   });
 
