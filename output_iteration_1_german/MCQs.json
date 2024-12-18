@@ -1,11 +1,13 @@
 [
     {
-        "question": "Wer ist für die Einhaltung der rechtlichen Anforderungen an die gelieferten Produkte in der Schweiz verantwortlich?",
+        "question": "Wie lange bleibt der Lieferant an sein Angebot gebunden, wenn in der Offertanfrage bzw. in den Submissionsunterlagen nichts Abweichendes festgelegt wird?",
         "options": {
-            "A": "Das Kantonsspital Winterthur (KSW)",
-            "B": "Der Lieferant",
-            "C": "Die Schweizer Regierung",
-            "D": "Die europäische Union"
+            "A": "Drei Monate",
+            "B": "Sechs Monate",
+            "C": "Ein Jahr",
+            "D": "Zwei Jahre",
+            "E": "Bis zur Abnahme des Liefergegenstandes",
+            "F": "Bis zur Beendigung des Vertrages"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -19,13 +21,15 @@
         }
     },
     {
-        "question": "Wer ist zuständig für Bestellungen im Kantonsspital Winterthur?",
+        "question": "Wie müssen Bestellungen an das Kantonsspital Winterthur erfolgen, um gültig zu sein?",
         "options": {
-            "A": "Die Abteilung Einkauf des KSW",
-            "B": "Die Projektleitung",
-            "C": "Der Lieferant"
+            "A": "Mündlich oder per E-Mail",
+            "B": "Schriftlich per E-Mail oder Post, mit einer Bestellnummer und Referenzadresse",
+            "C": "Telefonisch, mit einer Bestellnummer und Referenzadresse",
+            "D": "Per Fax, mit einer Bestellnummer und Referenzadresse",
+            "E": "Persönlich, mit einer Bestellnummer und Referenzadresse"
         },
-        "correct_answer": "A",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "243602/docs/ksw_111_weisse_linie_renamed/aeb_ksw_2022_01.pdf",
@@ -37,14 +41,12 @@
         }
     },
     {
-        "question": "Wer ist verantwortlich für die Kosten, die durch die Teststellung anfallen, wenn keine anderslautende Vereinbarung mit der Abteilung Einkauf getroffen wurde?",
+        "question": "Wer trägt die Kosten für das mit der Gebrauchsleihe im Zusammenhang stehende Verbrauchsmaterial?",
         "options": {
             "A": "Das KSW",
             "B": "Der Lieferant",
             "C": "Die Abteilung Einkauf",
-            "D": "Die Abteilung Medizintechnik",
-            "E": "Die Abteilung Informatik",
-            "F": "Der Abschluss eines Gebrauchsleihevertrages"
+            "D": "Die Abteilung Medizintechnik"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -58,14 +60,12 @@
         }
     },
     {
-        "question": "Wer trägt das Währungsrisiko bei Preisangaben in Schweizer Franken (CHF)?",
+        "question": "Wer trägt das Währungsrisiko bei Preisangaben?",
         "options": {
             "A": "Das KSW",
             "B": "Der Lieferant",
             "C": "Die Schweizerische Nationalbank",
-            "D": "Die Abteilung Einkauf des KSW",
-            "E": "Der Subunternehmer",
-            "F": "Die Mehrwertsteuerbehörde"
+            "D": "Die Abteilung Einkauf des KSW"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -79,7 +79,7 @@
         }
     },
     {
-        "question": "Was ist die Höhe der Konventionalstrafe pro Verspätungstag, die der Lieferant dem KSW schuldet, wenn er den Liefertermin überschreitet?",
+        "question": "Was ist die Höhe der Konventionalstrafe, die der Lieferant pro Verspätungstag schuldet?",
         "options": {
             "A": "0,5 Promille der gesamten Vergütung",
             "B": "1 Promille der gesamten Vergütung",
@@ -102,13 +102,10 @@
     {
         "question": "Was ist die Höhe der Konventionalstrafe, die der Lieferant dem KSW schuldet, wenn er oder einer seiner Mitarbeitenden die Datenschutz- oder Geheimhaltungspflichten verletzt?",
         "options": {
-            "A": "CHF 10'000 pro Verletzung",
-            "B": "CHF 20'000 pro Verletzung",
-            "C": "CHF 30'000 pro Verletzung",
-            "D": "CHF 40'000 pro Verletzung",
-            "E": "CHF 50'000 pro Verletzung",
-            "F": "Die Höhe der Konventionalstrafe ist nicht festgelegt",
-            "G": "Die Konventionalstrafe beträgt 1% des Vertragswerts"
+            "A": "CHF 10'000",
+            "B": "CHF 20'000",
+            "C": "CHF 30'000",
+            "D": "CHF 50'000"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -122,13 +119,14 @@
         }
     },
     {
-        "question": "Wie lange muss der Lieferant eine Gewährleistung für Einwegartikel vorsehen?",
+        "question": "Wie lange muss der Lieferant für Einwegartikel eine Gewährleistung vorsehen?",
         "options": {
             "A": "Mindestens 6 Monate ab Lieferung",
             "B": "Mindestens 12 Monate ab Lieferung",
             "C": "Mindestens 18 Monate ab Lieferung",
             "D": "Mindestens 24 Monate ab Lieferung",
-            "E": "Mindestens 36 Monate ab Lieferung"
+            "E": "Mindestens 36 Monate ab Lieferung",
+            "F": "Mindestens 48 Monate ab Lieferung"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -142,11 +140,13 @@
         }
     },
     {
-        "question": "Wie erfolgt die Zahlung nach Wahl des KSW, wenn nichts anderes vereinbart wird?",
+        "question": "Welche Zahlungsfrist gilt für Rechnungen, wenn nichts anderes vereinbart wird?",
         "options": {
-            "A": "Innerhalb von 30 Tagen nach Rechnungserhalt mit 2% Skonto",
-            "B": "Innerhalb von 45 Tagen nach Rechnungserhalt mit 2% Skonto oder innerhalb von 60 Tagen nach Rechnungserhalt netto",
-            "C": "Innerhalb von 90 Tagen nach Rechnungserhalt ohne Skonto"
+            "A": "30 Tage nach Rechnungserhalt",
+            "B": "45 Tage nach Rechnungserhalt mit 2% Skonto",
+            "C": "60 Tage nach Rechnungserhalt netto",
+            "D": "90 Tage nach Rechnungserhalt",
+            "E": "120 Tage nach Rechnungserhalt"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -160,15 +160,14 @@
         }
     },
     {
-        "question": "Wie lange hat das KSW Zeit, um die Schlussabrechnung zu prüfen?",
+        "question": "Wie lange hat das KSW Zeit, um die Schlussabrechnung zu prüfen, nachdem diese ordnungsgemäß eingereicht wurde?",
         "options": {
             "A": "30 Tage",
             "B": "45 Tage",
             "C": "60 Tage",
             "D": "90 Tage",
-            "E": "6 Monate",
-            "F": "12 Monate",
-            "G": "24 Monate"
+            "E": "12 Monate",
+            "F": "24 Monate"
         },
         "correct_answer": "C",
         "language": "DE",
@@ -202,16 +201,13 @@
         }
     },
     {
-        "question": "Wie viele Mitarbeiter hat das Kantonsspital Winterthur?",
+        "question": "Wie viele Betten hat das Kantonsspital Winterthur?",
         "options": {
-            "A": "2'500 Mitarbeitende",
-            "B": "3'000 Mitarbeitende",
-            "C": "3'900 Mitarbeitende",
-            "D": "4'500 Mitarbeitende",
-            "E": "5'000 Mitarbeitende",
-            "F": "6'000 Mitarbeitende"
+            "A": "Rund 300 Betten",
+            "B": "Rund 500 Betten",
+            "C": "Rund 1000 Betten"
         },
-        "correct_answer": "C",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "243602/docs/ksw_111_weisse_linie_renamed/ksw_submission_weisse_linie_2022ff_angebot.pdf",
@@ -223,11 +219,12 @@
         }
     },
     {
-        "question": "Was ist die Bedingung, unter der der Lieferant einen Anspruch darauf hat, neue Milchprodukte zu liefern, wenn diese ins Sortiment des KSW aufgenommen werden?",
+        "question": "Welche Bedingung muss erfüllt sein, damit der Lieferant einen Anspruch darauf hat, neue Milchprodukte zu liefern, wenn diese ins Sortiment des KSW aufgenommen werden?",
         "options": {
-            "A": "Der voraussichtliche Umsatz pro Jahr und Produkt muss mindestens Fr. 10'000.- betragen.",
+            "A": "Der voraussichtliche Umsatz pro Jahr und Produkt muss mindestens Fr. 1'000.- betragen.",
             "B": "Der voraussichtliche Umsatz pro Jahr und Produkt muss mindestens Fr. 5'000.- betragen.",
-            "C": "Der voraussichtliche Umsatz pro Jahr und Produkt muss mindestens Fr. 20'000.- betragen."
+            "C": "Der voraussichtliche Umsatz pro Jahr und Produkt muss mindestens Fr. 10'000.- betragen.",
+            "D": "Es gibt keine Umsatzbedingung für neue Milchprodukte."
         },
         "correct_answer": "B",
         "language": "DE",
@@ -243,11 +240,10 @@
     {
         "question": "Was bedeutet es, wenn in der Spalte 'Anzubietendes Produkt' kein Markenname genannt wird?",
         "options": {
-            "A": "Das Produkt muss exakt dem Referenzprodukt entsprechen.",
-            "B": "Ein gleichwertiges Produkt mit ähnlichen Eigenschaften ist erlaubt.",
-            "C": "Der Lieferant kann ein Produkt seiner Wahl anbieten.",
-            "D": "Das Produkt muss von einer bestimmten Marke sein.",
-            "E": "Es ist nicht möglich, ein Angebot für dieses Produkt zu machen."
+            "A": "Das Produkt muss genau den gleichen Markennamen wie das Referenzprodukt haben.",
+            "B": "Ein gleichwertiges Produkt mit ähnlichen Eigenschaften ist ausreichend.",
+            "C": "Das Produkt muss von einer bestimmten Marke sein, aber die Eigenschaften sind frei wählbar.",
+            "D": "Das Produkt wird automatisch abgelehnt, wenn kein Markenname genannt wird."
         },
         "correct_answer": "B",
         "language": "DE",
@@ -261,11 +257,14 @@
         }
     },
     {
-        "question": "Was ist der massgebende Preis für die Preisvergleiche im Angebot?",
+        "question": "Was ist der massgebende Preis für die Preisvergleiche laut des Angebots?",
         "options": {
-            "A": "Bruttopreis in Schweizer Franken mit Mehrwertsteuer",
+            "A": "Bruttopreis in Schweizer Franken",
             "B": "Nettopreis in Schweizer Franken ohne Mehrwertsteuer",
-            "C": "Total netto inkl. MwSt. in Schweizer Franken"
+            "C": "Nettopreis in Schweizer Franken inklusive Mehrwertsteuer",
+            "D": "Gesamtpreis in Euro",
+            "E": "Rabatt in Schweizer Franken",
+            "F": "Skontopreis in Schweizer Franken"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -279,13 +278,15 @@
         }
     },
     {
-        "question": "Bis wann sollten sämtliche Fragen zu dieser Submission im SIMAP-Forum eingetragen sein?",
+        "question": "Bis wann sollten sämtliche Fragen zum Submission im SIMAP-Forum eingetragen sein?",
         "options": {
             "A": "Montag, 12. September 2022 / 14:00 Uhr",
-            "B": "Montag, 19. September 2022 / 14:00 Uhr",
-            "C": "Montag, 26. September 2022 / 14:00 Uhr"
+            "B": "Montag, 19. September 2022 / 10:00 Uhr",
+            "C": "Montag, 19. September 2022 / 14:00 Uhr",
+            "D": "Freitag, 23. September 2022 / 14:00 Uhr",
+            "E": "Montag, 26. September 2022 / 14:00 Uhr"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "243602/docs/ksw_111_weisse_linie_renamed/ksw_submission_weisse_linie_2022ff_angebot.pdf",
@@ -297,14 +298,17 @@
         }
     },
     {
-        "question": "An welchen Tagen erfolgen die Bestellungen für den Hoga-Shop?",
+        "question": "An welchem Ort müssen die Bestellungen über den Hoga-Shop getätigt werden?",
         "options": {
-            "A": "Montag bis Donnerstag",
-            "B": "Montag bis Freitag",
-            "C": "Dienstag bis Freitag",
-            "D": "Montag, Mittwoch, Freitag"
+            "A": "Im Büro des Supply Chain Managements",
+            "B": "Im Lager des Kantonsspitals Winterthur",
+            "C": "In den Kühlräumen vor Ort",
+            "D": "Im Verwaltungsbüro des Kantonsspitals Winterthur",
+            "E": "Im Einkaufsbüro des Kantonsspitals Winterthur",
+            "F": "In der Warenannahme des Kantonsspitals Winterthur",
+            "G": "Im Hoga-Shop-Büro"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "243602/docs/ksw_111_weisse_linie_renamed/ksw_submission_weisse_linie_2022ff_angebot.pdf",
@@ -316,11 +320,13 @@
         }
     },
     {
-        "question": "Wo befindet sich die Rampe für die Lieferung im Kantonsspital Winterthur?",
+        "question": "Welche Abteilung des Kantonsspitals Winterthur ist für den Einkauf und die Logistik verantwortlich?",
         "options": {
-            "A": "Im Eingangsbereich des Krankenhauses",
-            "B": "An der Warenannahme",
-            "C": "Im Bereich der Einkauf und Logistik"
+            "A": "Einkauf und Verkauf",
+            "B": "Einkauf und Logistik",
+            "C": "Finanzen und Logistik",
+            "D": "Personal und Einkauf",
+            "E": "Verwaltung und Logistik"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -334,15 +340,15 @@
         }
     },
     {
-        "question": "Was muss das Angebot für die Artikelliste 'Milchprodukte' umfassen?",
+        "question": "Was ist für die Bewertung des Gesamtpreises im Rahmen der Submission ausschlaggebend?",
         "options": {
-            "A": "Eine Auswahl von mindestens 50% der aufgeführten Produkte",
-            "B": "Eine Auswahl von mindestens 75% der aufgeführten Produkte",
-            "C": "Sämtliche in der Artikelliste 'Milchprodukte' aufgeführte Produkte",
-            "D": "Eine Auswahl von mindestens 25% der aufgeführten Produkte",
-            "E": "Eine beliebige Anzahl von Produkten aus der Artikelliste 'Milchprodukte'"
+            "A": "Nur der Preis pro Kilogramm jedes Produkts",
+            "B": "Das Total der Kosten für eine Jahresmenge aller aufgeführten Produkte sowie deren Qualität",
+            "C": "Die Anzahl der gelieferten Produkte",
+            "D": "Die Lieferartikel, unabhängig von den Preisen",
+            "E": "Die logistischen Kosten für die Lieferung"
         },
-        "correct_answer": "C",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "243602/docs/ksw_111_weisse_linie_renamed/ksw_submission_weisse_linie_2022ff_angebot.pdf",
@@ -354,7 +360,7 @@
         }
     },
     {
-        "question": "Wie viele Referenzfirmen muss der Anbieter mindestens nennen, welche ihre Bestellungen über den Hoga-Shop abwickeln?",
+        "question": "Welche Mindestanzahl an Referenzfirmen muss der Anbieter nennen, die ihre Bestellungen über den Hoga-Shop abwickeln?",
         "options": {
             "A": "Eine",
             "B": "Zwei",
@@ -378,10 +384,9 @@
     {
         "question": "Wie müssen Angebote für die Ausschreibung 'Submission Weisse Linie 2022ff' eingereicht werden?",
         "options": {
-            "A": "Elektronisch per E-Mail",
-            "B": "Auf Papier und elektronisch auf einem USB-Stick in einem verschlossenen Umschlag",
-            "C": "Per Fax",
-            "D": "Über Dropbox"
+            "A": "Elektronisch per E-Mail oder Dropbox",
+            "B": "In Papierform und elektronisch auf einem USB-Stick in einem verschlossenen Umschlag",
+            "C": "Nur in Papierform ohne elektronische Version"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -395,13 +400,14 @@
         }
     },
     {
-        "question": "Welches Gesetz regelt den Datenschutz im Zusammenhang mit Personendaten des Kantonsspitals Winterthur?",
+        "question": "Welche Gewichtung hat das Kriterium 'Gesamtpreis' bei der Bewertung der Zuschlagskriterien?",
         "options": {
-            "A": "Gesetz über den Beitritt zur revidierten Interkantonalen Vereinbarung über das öffentliche Beschaffungswesen",
-            "B": "Gesetz über die Information und den Datenschutz (IDG)",
-            "C": "Submissionsverordnung (SVO)"
+            "A": "20%",
+            "B": "35%",
+            "C": "50%",
+            "D": "60%"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "243602/docs/ksw_111_weisse_linie_renamed/ksw_submission_weisse_linie_2022ff_angebot.pdf",
@@ -415,11 +421,12 @@
     {
         "question": "Wie lange ist die feste Dauer des Rahmenvertrags?",
         "options": {
-            "A": "Zwei Jahre",
-            "B": "Drei Jahre",
-            "C": "Vier Jahre"
+            "A": "Ein Jahr",
+            "B": "Zwei Jahre",
+            "C": "Drei Jahre",
+            "D": "Vier Jahre"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "243602/docs/ksw_111_weisse_linie_renamed/ksw_submission_weisse_linie_2022ff_angebot.pdf",
@@ -431,16 +438,15 @@
         }
     },
     {
-        "question": "Wie oft muss der Lieferant die Qualität der Produkte garantieren?",
+        "question": "Wie lange hat der Lieferant Zeit, um fehlerhafte oder unvollständige Lieferungen zu ersetzen?",
         "options": {
-            "A": "Nur bei der Erstlieferung",
-            "B": "Jeden Tag",
-            "C": "Jede Woche",
-            "D": "Jederzeit",
-            "E": "Nur bei Änderungen der Rezeptur",
-            "F": "Nur bei Beanstandungen"
+            "A": "Innerhalb von 2 Stunden",
+            "B": "Innerhalb von 5 Stunden",
+            "C": "Innerhalb von 1 Tag",
+            "D": "Innerhalb von 3 Tagen",
+            "E": "Innerhalb von 1 Woche"
         },
-        "correct_answer": "D",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "243602/docs/ksw_111_weisse_linie_renamed/ksw_submission_weisse_linie_2022ff_angebot.pdf",
@@ -455,11 +461,11 @@
         "question": "Wer trägt die Kosten für die Entsorgung von Verpackungsmaterial?",
         "options": {
             "A": "Das Kantonsspital Winterthur",
-            "B": "Die Lieferfirma",
-            "C": "Der Staat",
-            "D": "Die Kunden",
-            "E": "Die Mitarbeiter",
-            "F": "Die Verpackungshersteller"
+            "B": "Der Lieferant",
+            "C": "Die Schweizer Regierung",
+            "D": "Der Endverbraucher",
+            "E": "Ein externer Entsorger",
+            "F": "Die Kosten werden geteilt"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -473,13 +479,17 @@
         }
     },
     {
-        "question": "Wie oft muss die Rechnungsstellung für das Kantonsspital Winterthur erfolgen?",
+        "question": "Wie oft muss die Rechnungsstellung durch den Anbieter erfolgen?",
         "options": {
-            "A": "Jährlich",
-            "B": "Monatlich",
-            "C": "Vierteljährlich"
+            "A": "Jeden Tag",
+            "B": "Jede Woche",
+            "C": "Einmal monatlich",
+            "D": "Jedes Quartal",
+            "E": "Jedes Halbjahr",
+            "F": "Jedes Jahr",
+            "G": "Unregelmäßig"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "243602/docs/ksw_111_weisse_linie_renamed/ksw_submission_weisse_linie_2022ff_angebot.pdf",
@@ -491,15 +501,13 @@
         }
     },
     {
-        "question": "Welches Recht findet ausschließlich auf die Ausschreibung und den abzuschließenden Rahmenvertrag Anwendung?",
+        "question": "Welches Recht findet ausschließlich auf diese Ausschreibung und den abzuschließenden Rahmenvertrag Anwendung?",
         "options": {
             "A": "Deutsches Recht",
-            "B": "Schweizerisches Recht unter Ausschluss des UN-Übereinkommens über den internationalen Warenkauf",
-            "C": "Europäisches Recht",
-            "D": "Internationales Recht",
-            "E": "Österreichisches Recht"
+            "B": "Schweizerisches Recht unter Einbeziehung des UN-Übereinkommens über den internationalen Warenkauf",
+            "C": "Schweizerisches Recht unter Ausschluss des UN-Übereinkommens über den internationalen Warenkauf"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "243602/docs/ksw_111_weisse_linie_renamed/ksw_submission_weisse_linie_2022ff_angebot.pdf",
@@ -511,7 +519,7 @@
         }
     },
     {
-        "question": "Welche Behörde ist für die Vergabe des Auftrags zur Herstellung, Lagerhaltung, Vertrieb und Inkasso gebührenpflichtiger Kehrichtsäcke in der Stadt Basel verantwortlich?",
+        "question": "Welche Behörde ist die Bedarfsstelle und Vergabestelle für die Herstellung, Lagerhaltung, Vertrieb und Inkasso gebührenpflichtiger Kehrichtsäcke der Stadt Basel?",
         "options": {
             "A": "Departement für Bildung und Kultur des Kantons Basel-Stadt",
             "B": "Departement für Wirtschaft, Soziales und Umwelt des Kantons Basel-Stadt",
@@ -529,17 +537,15 @@
         }
     },
     {
-        "question": "Welche Vertragsart ist für das vorliegende Ausschreibungsverfahren vorgesehen?",
+        "question": "Welche Abkürzung wird im Text für die 'Kantonale Fachstelle für öffentliche Beschaffungen' verwendet?",
         "options": {
-            "A": "Rahmenvertrag",
-            "B": "Liefervertrag",
-            "C": "Dienstleistungsvertrag",
-            "D": "Werkvertrag",
-            "E": "Konzessionsvertrag",
-            "F": "Mietvertrag",
-            "G": "Leasingvertrag"
+            "A": "KFöB",
+            "B": "KFB",
+            "C": "KFP",
+            "D": "KFÖ",
+            "E": "KBP"
         },
-        "correct_answer": "B",
+        "correct_answer": "A",
         "language": "DE",
         "context": {
             "file": "184372/docs/ausschreibungsunterlagen_renamed/lh_wsu_bebbi_sack_sub2019.pdf",
@@ -556,7 +562,9 @@
             "A": "Departement für Wirtschaft, Soziales und Umwelt des Kantons Basel-Stadt",
             "B": "Bau- und Verkehrsdepartement des Kantons Basel-Stadt",
             "C": "Kantonale Fachstelle für öffentliche Beschaffungen",
-            "D": "Stadtrat der Stadt Basel"
+            "D": "Stadtrat Basel",
+            "E": "Kantonsblatt Basel-Stadt",
+            "F": "SIMAP"
         },
         "correct_answer": "C",
         "language": "DE",
@@ -572,10 +580,13 @@
     {
         "question": "Bis wann müssen die Angebote für die Herstellung, Lagerhaltung, Vertrieb und Inkasso gebührenpflichtiger Kehrichtsäcke (Bebbi-Sack) bei der Kantonalen Fachstelle für öffentliche Beschaffungen vorliegen?",
         "options": {
-            "A": "1. April 2019",
-            "B": "29. April 2019, 12:00 Uhr",
-            "C": "29. April 2019, 16:00 Uhr",
-            "D": "30. April 2019, 17:00 Uhr"
+            "A": "28.04.2019, 16:00",
+            "B": "29.04.2019, 12:00",
+            "C": "29.04.2019, 16:00",
+            "D": "30.04.2019, 10:00",
+            "E": "01.05.2019, 12:00",
+            "F": "02.05.2019, 14:00",
+            "G": "03.05.2019, 10:00"
         },
         "correct_answer": "C",
         "language": "DE",
@@ -589,15 +600,17 @@
         }
     },
     {
-        "question": "Welches Gesetz gilt für das Verfahren der öffentlichen Beschaffungen im Kanton Basel-Stadt?",
+        "question": "Welche der folgenden Teilnahmebedingungen müssen für die Teilnahme am Verfahren erbracht werden?",
         "options": {
-            "A": "Gesetz über öffentliche Beschaffungen (BeG) vom 15. April 1994",
-            "B": "Gesetz über öffentliche Beschaffungen (BeG, SG 914.100) vom 20. Mai 1999",
-            "C": "Verordnung über das öffentliche Beschaffungswesen (VöB, SG 914.110) vom 11. April 2000",
-            "D": "Interkantonale Vereinbarung über das öffentliche Beschaffungswesen (IVöB, SR 172.056.5) vom 25. November 1994/15. März 2001",
-            "E": "GATT / WTO-Übereinkommen über das öffentliche Beschaffungswesen (GPA) vom 15. April 1994"
+            "A": "Nachweis der Einhaltung von §§ 3 und 4 Beschaffungsgesetz",
+            "B": "Bereitschaft zur Vorlage von Steuererklärungen",
+            "C": "Nachweis der Einhaltung von §§ 5 und 6 Beschaffungsgesetz",
+            "D": "Bereitschaft zur Vorlage von Mitarbeiterverträgen",
+            "E": "Nachweis der Einhaltung von §§ 7 und 8 Beschaffungsgesetz",
+            "F": "Bereitschaft zur Vorlage von Versicherungspolicen",
+            "G": "Nachweis der Einhaltung von §§ 9 und 10 Beschaffungsgesetz"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "184372/docs/ausschreibungsunterlagen_renamed/lh_wsu_bebbi_sack_sub2019.pdf",
@@ -609,13 +622,14 @@
         }
     },
     {
-        "question": "Welche Gewichtung hat das Zuschlagskriterium 'Preis' bei der Bewertung der Angebote?",
+        "question": "Welche Gewichtung hat das Zuschlagskriterium 'Preis'?",
         "options": {
-            "A": "30%",
-            "B": "50%",
-            "C": "70%"
+            "A": "30.0%",
+            "B": "40.0%",
+            "C": "50.0%",
+            "D": "60.0%"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "184372/docs/ausschreibungsunterlagen_renamed/lh_wsu_bebbi_sack_sub2019.pdf",
@@ -627,11 +641,11 @@
         }
     },
     {
-        "question": "Wie erfolgt die Bewertung des Preises gemäß dem Preisbewertungsmodell?",
+        "question": "Wie erfolgt die Bewertung des Preises?",
         "options": {
-            "A": "Die Maximalnote wird für das höchste gültige Angebot vergeben.",
-            "B": "Die Maximalnote wird für das tiefste gültige Angebot vergeben.",
-            "C": "Die Bewertung erfolgt nach einem festen Punktesystem."
+            "A": "Die Bewertung erfolgt nach einem festen Punktesystem",
+            "B": "Die Bewertung erfolgt gemäß einem linearen Modell zwischen dem tiefsten gültigen Angebot und 175% des tiefsten gültigen Angebots",
+            "C": "Die Bewertung erfolgt nach einem Alphabet-System"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -645,17 +659,14 @@
         }
     },
     {
-        "question": "Wie viele Tonnen Hauskehricht werden pro Jahr in gebührenpflichtigen Säcken in der Stadt Basel eingesammelt?",
+        "question": "Wie viele Tonnen Hauskehricht werden pro Jahr in gebührenpflichtigen Säcken eingesammelt?",
         "options": {
             "A": "20'000 Tonnen",
-            "B": "25'000 Tonnen",
-            "C": "30'000 Tonnen",
-            "D": "35'000 Tonnen",
-            "E": "40'000 Tonnen",
-            "F": "45'000 Tonnen",
-            "G": "50'000 Tonnen"
+            "B": "30'000 Tonnen",
+            "C": "40'000 Tonnen",
+            "D": "50'000 Tonnen"
         },
-        "correct_answer": "C",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "184372/docs/ausschreibungsunterlagen_renamed/lh_wsu_bebbi_sack_sub2019.pdf",
@@ -667,16 +678,15 @@
         }
     },
     {
-        "question": "Wer ist für die Kosten des jährlichen Materialtests verantwortlich, der vom Amt für Umwelt und Energie in Auftrag gegeben wird?",
+        "question": "Wer ist für die Kosten des jährlichen Materialtests verantwortlich?",
         "options": {
             "A": "Die Stadt Basel",
-            "B": "Der Anbieter",
-            "C": "Das Prüfinstitut UGRA",
-            "D": "Das Amt für Umwelt und Energie",
-            "E": "Die Kantonale Fachstelle für öffentliche Beschaffungen",
-            "F": "Der Kanton Basel-Stadt"
+            "B": "Das Amt für Umwelt und Energie",
+            "C": "Der Anbieter",
+            "D": "Das Prüfinstitut UGRA",
+            "E": "Der Kanton Basel-Stadt"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "184372/docs/ausschreibungsunterlagen_renamed/lh_wsu_bebbi_sack_sub2019.pdf",
@@ -688,15 +698,12 @@
         }
     },
     {
-        "question": "Welche Unterlagen bilden den Gegenstand des Vertrags und stehen an erster Stelle in der Hierarchie?",
+        "question": "Welche Unterlagen bilden laut Vertragsbestandteilen die höchste Hierarchiestufe?",
         "options": {
             "A": "Ausschreibungsunterlagen",
             "B": "Angebot des Unternehmens inkl. Beilagen",
             "C": "Vertragsurkunde",
-            "D": "Buchhaltungsprüfung",
-            "E": "Verkaufsstatistik",
-            "F": "Gebührenabrechnung",
-            "G": "Mustervertrag"
+            "D": "Buchhaltungsprüfung"
         },
         "correct_answer": "C",
         "language": "DE",
@@ -713,11 +720,10 @@
         "question": "Was beauftragt das Amt für Umwelt und Energie die MUSTER AG mit?",
         "options": {
             "A": "Nur mit der Herstellung von Gebührensäcken",
-            "B": "Mit der Herstellung, Lagerhaltung und Vertrieb von Gebührensäcken sowie mit dem Inkasso der Gebühren",
+            "B": "Mit der Herstellung, Lagerhaltung und Vertrieb von Gebührensäcken sowie dem Inkasso der Gebühren",
             "C": "Nur mit dem Inkasso der Gebühren",
-            "D": "Mit der Belieferung aller Verkaufsstellen von gebührenpflichtigen Kehrichtsäcken in der Stadt Zürich",
-            "E": "Mit der termingerechten Überweisung der vereinbarten Gebührengelder an das Amt für Finanzen",
-            "F": "Mit der lückenlosen Belieferung aller Verkaufsstellen von gebührenpflichtigen Kehrichtsäcken in der Schweiz"
+            "D": "Mit der Belieferung von Verkaufsstellen von gebührenfreien Kehrichtsäcken",
+            "E": "Mit der Überweisung von Gebührengeldern an die Stadt Basel"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -737,8 +743,7 @@
             "B": "Vierteljährlich",
             "C": "Halbjährlich",
             "D": "Jährlich",
-            "E": "Alle zwei Jahre",
-            "F": "Alle fünf Jahre"
+            "E": "Alle zwei Jahre"
         },
         "correct_answer": "D",
         "language": "DE",
@@ -757,10 +762,8 @@
             "A": "Monatlich",
             "B": "Vierteljährlich",
             "C": "Halbjährlich",
-            "D": "Jährlich",
-            "E": "Alle zwei Jahre",
-            "F": "Alle drei Jahre",
-            "G": "Nie"
+            "D": "Mindestens einmal jährlich",
+            "E": "Nur bei Bedarf"
         },
         "correct_answer": "D",
         "language": "DE",
@@ -774,14 +777,11 @@
         }
     },
     {
-        "question": "Wie oft erstellt die MUSTER AG eine Statistik über die gelieferten Abfallsäcke und eine Abrechnung über die eingenommenen Gebühren?",
+        "question": "Wie lange beträgt die Zahlungsfrist für die MUSTER AG, nachdem das Amt für Umwelt und Energie die Rechnung gestellt hat?",
         "options": {
-            "A": "Einmal pro Monat",
-            "B": "Zweimal pro Monat",
-            "C": "Einmal pro Quartal",
-            "D": "Zweimal pro Quartal",
-            "E": "Einmal pro Jahr",
-            "F": "Zweimal pro Jahr"
+            "A": "15 Tage",
+            "B": "25 Tage",
+            "C": "30 Tage"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -795,14 +795,13 @@
         }
     },
     {
-        "question": "Wo ist der Gerichtsstand laut dem Departement für Wirtschaft, Soziales und Umwelt des Kantons Basel-Stadt?",
+        "question": "Wo ist der Gerichtsstand laut des Dokuments?",
         "options": {
-            "A": "Zürich",
-            "B": "Bern",
+            "A": "Bern",
+            "B": "Zürich",
             "C": "Basel",
             "D": "Genf",
-            "E": "Luzern",
-            "F": "St. Gallen"
+            "E": "Luzern"
         },
         "correct_answer": "C",
         "language": "DE",
@@ -816,11 +815,12 @@
         }
     },
     {
-        "question": "Wie viele Säcke befinden sich auf einer Rolle für jede Sackgröße?",
+        "question": "Wie viele Säcke befinden sich pro Rolle in allen drei angebotenen Größen?",
         "options": {
-            "A": "5 Säcke",
-            "B": "10 Säcke",
-            "C": "20 Säcke"
+            "A": "5",
+            "B": "10",
+            "C": "15",
+            "D": "20"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -834,15 +834,14 @@
         }
     },
     {
-        "question": "Welche Mindest-Anforderung an die Bruchkraft längs gilt für den 35l-Sack?",
+        "question": "Welche Mindestanforderung an die Bruchkraft längs gilt für einen 35l-Sack?",
         "options": {
-            "A": "10.0 N",
-            "B": "12.0 N",
-            "C": "14.0 N",
-            "D": "16.0 N",
-            "E": "18.0 N"
+            "A": "12,0 N",
+            "B": "14,0 N",
+            "C": "16,0 N",
+            "D": "18,0 N"
         },
-        "correct_answer": "C",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "184372/docs/ausschreibungsunterlagen_renamed/mustervertrag_gebuehrensaeckebs_2019.pdf",
@@ -854,16 +853,13 @@
         }
     },
     {
-        "question": "Wie viele Säcke müssen fehlerlos sein, damit die Prüfung als bestanden gilt?",
+        "question": "Wie viele Säcke müssen fehlerlos sein, um die Anforderungen des Vertrags zu erfüllen?",
         "options": {
             "A": "90%",
-            "B": "92%",
-            "C": "95%",
-            "D": "98%",
-            "E": "100%",
-            "F": "80%"
+            "B": "95%",
+            "C": "100%"
         },
-        "correct_answer": "C",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "184372/docs/ausschreibungsunterlagen_renamed/mustervertrag_gebuehrensaeckebs_2019.pdf",
@@ -875,15 +871,13 @@
         }
     },
     {
-        "question": "Welche Bandbreite gilt für den Rohstoffmarktpreis von Virgin LD/PE?",
+        "question": "Wie oft findet eine Überprüfung der Rohstoffmarktpreise statt?",
         "options": {
-            "A": "EUR 850 – 1'150 pro Tonne",
-            "B": "EUR 1'000 – 1'400 pro Tonne",
-            "C": "EUR 1'200 – 1'600 pro Tonne",
-            "D": "EUR 1'500 – 1'800 pro Tonne",
-            "E": "EUR 2'000 – 2'200 pro Tonne"
+            "A": "Jährlich",
+            "B": "Quartalsweise",
+            "C": "Monatlich"
         },
-        "correct_answer": "C",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "184372/docs/ausschreibungsunterlagen_renamed/mustervertrag_gebuehrensaeckebs_2019.pdf",
@@ -897,11 +891,11 @@
     {
         "question": "Wo erfolgt die Lieferung der Geräte?",
         "options": {
-            "A": "Direkt an die Schule",
+            "A": "An verschiedene Standorte in Oetwil am See",
             "B": "Zentral an eine Anlieferstelle in Oetwil am See",
             "C": "An die Schulverwaltung Oetwil am See",
-            "D": "An die Educlix GmbH",
-            "E": "An eine externe Lagerhalle"
+            "D": "An die Educlix GmbH in Richterswil",
+            "E": "An die Schwyzerstrasse 28h in Richterswil"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -915,13 +909,14 @@
         }
     },
     {
-        "question": "Welche Gewichtung hat das Kriterium 'Preis' bei der Bewertung der Angebote?",
+        "question": "Wie hoch ist der Anteil des Preises bei den Zuschlagskriterien?",
         "options": {
             "A": "50%",
             "B": "60%",
             "C": "70%",
             "D": "80%",
-            "E": "90%"
+            "E": "90%",
+            "F": "100%"
         },
         "correct_answer": "C",
         "language": "DE",
@@ -935,11 +930,15 @@
         }
     },
     {
-        "question": "Wie viele MacBook Air 1,8 GHz i5 / 8GB RAM / 256GB SSD / 13\" werden beschafft?",
+        "question": "Wie viele MacBook Airs mit 1,8 GHz i5-Prozessor und 256GB SSD werden benötigt?",
         "options": {
             "A": "3 Stück",
             "B": "66 Stück",
-            "C": "147 Stück"
+            "C": "147 Stück",
+            "D": "174 Stück",
+            "E": "1 Stück",
+            "F": "256 Stück",
+            "G": "512 Stück"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -953,13 +952,11 @@
         }
     },
     {
-        "question": "Wie viele Stück des Artikels 'Apple TV 32 GB (4. Generation, NICHT 4K)' sind in Position 11 aufgeführt?",
+        "question": "Welches Tastaturlayout haben die Zagg Messenger Folio für iPad 9.7\"?",
         "options": {
-            "A": "28 Stück",
-            "B": "38 Stück",
-            "C": "40 Stück",
-            "D": "48 Stück",
-            "E": "58 Stück"
+            "A": "QWERTY (US)",
+            "B": "QWERTZ (CH)",
+            "C": "AZERTY (FR)"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -973,16 +970,13 @@
         }
     },
     {
-        "question": "Wie viele Stück des Monitors Philips 273V7QDAB werden benötigt?",
+        "question": "Wie viele HDMI-Kabel werden benötigt, wenn sie nicht bereits in den Positionen 16 und 17 enthalten sind?",
         "options": {
-            "A": "1 Stück",
-            "B": "2 Stück",
-            "C": "3 Stück",
-            "D": "4 Stück",
-            "E": "5 Stück",
-            "F": "6 Stück"
+            "A": "2 Stück",
+            "B": "4 Stück",
+            "C": "6 Stück"
         },
-        "correct_answer": "C",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "169436/docs/180404_it_oetwil.pdf",
@@ -994,11 +988,15 @@
         }
     },
     {
-        "question": "Wo befindet sich die Firma Raum und Wirtschaft (rawi)?",
+        "question": "Was ist die Adresse von Raum und Wirtschaft (rawi)?",
         "options": {
-            "A": "Murbacherstrasse 21, 6002 Zürich",
+            "A": "Murbacherstrasse 10, 6002 Luzern",
             "B": "Murbacherstrasse 21, 6002 Luzern",
-            "C": "Murbacherstrasse 21, 6002 Bern"
+            "C": "Murbacherstrasse 21, 6000 Luzern",
+            "D": "Murbacherstrasse 10, 6000 Luzern",
+            "E": "Bahnhofstrasse 1, 6002 Luzern",
+            "F": "Bahnhofstrasse 21, 6002 Luzern",
+            "G": "Postfach 123, 6002 Luzern"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -1017,9 +1015,8 @@
             "A": "Bau-, Umwelt- und Wirtschaftsdepartement",
             "B": "Dienststelle Raum und Wirtschaft (rawi)",
             "C": "Kantonale Verwaltung",
-            "D": "Gemeinden",
-            "E": "Tourismusorganisationen",
-            "F": "Schweizer Bundesrat"
+            "D": "Schweizer Bundesrat",
+            "E": "Gemeinden und Tourismusorganisationen"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -1033,13 +1030,17 @@
         }
     },
     {
-        "question": "Wer muss gemäß den Ausführungsbestimmungen zum Gastwirtschaftsgesetz einen Meldeschein ausfüllen?",
+        "question": "Welche der folgenden Aussagen über die Meldepflicht für ausländische Gäste in der Schweiz ist korrekt?",
         "options": {
-            "A": "Alle Gäste, unabhängig von ihrer Nationalität",
-            "B": "Nur ausländische Gäste",
-            "C": "Nur inländische Gäste"
+            "A": "Alle Gäste, unabhängig von ihrer Nationalität, müssen einen Meldeschein ausfüllen.",
+            "B": "Nur inländische Gäste müssen einen Meldeschein ausfüllen.",
+            "C": "Die Meldepflicht gilt nur für Gäste, die länger als 3 Tage bleiben.",
+            "D": "Die Meldepflicht gilt nur für Gäste, die in Hotels übernachten.",
+            "E": "Nur ausländische Gäste müssen einen Meldeschein ausfüllen.",
+            "F": "Die Meldepflicht ist nur in bestimmten Kantonen gültig.",
+            "G": "Es gibt keine Meldepflicht für Gäste in der Schweiz."
         },
-        "correct_answer": "B",
+        "correct_answer": "E",
         "language": "DE",
         "context": {
             "file": "260598/docs/01_rfi_digitales_meldewesen_kanton_luzern.pdf",
@@ -1053,10 +1054,13 @@
     {
         "question": "Was ist das Ziel des Kantons Luzern mit der Einführung eines digitalen Meldewesens?",
         "options": {
-            "A": "Vereinheitlichung der Gebühren für alle Unterkunftstypen",
-            "B": "Prozessoptimierung und Effizienzsteigerung",
-            "C": "Erhöhung der kantonalen und kommunalen Gebühren",
-            "D": "Abschaffung der Kurtaxe"
+            "A": "Die Erhöhung der Gebühren für Touristen",
+            "B": "Die Vereinfachung des Prozesses und die Effizienzsteigerung",
+            "C": "Die Abschaffung der Kurtaxe",
+            "D": "Die Einführung einer einheitlichen Gebühr für alle Unterkunftstypen",
+            "E": "Die Reduzierung der Anzahl der zuständigen Stellen für die Abwicklung der Meldescheine",
+            "F": "Die Verbesserung der Datenqualität und -quantität ausschließlich für die Hotellerie",
+            "G": "Die Kombination des digitalen Meldewesens mit der digitalen Gästekarte als einziges Ziel"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -1070,15 +1074,17 @@
         }
     },
     {
-        "question": "Wer ist im Idealprozess für die Eingabe von Gästedaten für den Meldeschein verantwortlich?",
+        "question": "Wer ist im Idealprozess für die Eingabe der Gästedaten für den Meldeschein verantwortlich?",
         "options": {
             "A": "Kanton",
-            "B": "Unterkunft oder Gast",
-            "C": "Reiseleitung",
-            "D": "Gast allein",
-            "E": "Gruppenreisende"
+            "B": "Gast",
+            "C": "Unterkunft oder Gast",
+            "D": "Reiseleitung",
+            "E": "Gruppenreisende",
+            "F": "Individualreisende",
+            "G": "Internetverbindung"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "260598/docs/01_rfi_digitales_meldewesen_kanton_luzern.pdf",
@@ -1090,11 +1096,11 @@
         }
     },
     {
-        "question": "Welche Funktion soll die Zentrale Stelle im digitalen Meldewesen übernehmen?",
+        "question": "Welche Funktion ist der Zentralen Stelle im digitalen Meldewesen zugeordnet?",
         "options": {
-            "A": "Gästekartenerstellung",
+            "A": "Gästekarte",
             "B": "Rechnungsversand, Mahnungen, Betreibungen",
-            "C": "Datenintegration und -analyse für das Observatorium",
+            "C": "Datenintegration und -analyse",
             "D": "Zugriff auf Gästedaten zu Fahndungszwecken"
         },
         "correct_answer": "B",
@@ -1109,12 +1115,11 @@
         }
     },
     {
-        "question": "Welches Produkt bietet der Anbieter für ein digitales Meldewesen an?",
+        "question": "Was ist der Zweck des Abschnitts 3.1 im Fragenkatalog?",
         "options": {
-            "A": "Ein eigenständiges Produkt",
-            "B": "Ein Modul in einer Produktsuite",
-            "C": "Eine Schnittstelle zu kommunalen und kantonalen Abgabenabrechnungssystemen",
-            "D": "Eine App für den Offline-Prozess-Start"
+            "A": "Ein detaillierter Anforderungskatalog für das digitale Meldewesen-Produkt zu erstellen",
+            "B": "Einen kurzen Einblick in das Unternehmen des Anbieters zu bekommen",
+            "C": "Die Funktionalitäten des Gästekartesystems zu beschreiben"
         },
         "correct_answer": "B",
         "language": "DE",
@@ -1128,13 +1133,15 @@
         }
     },
     {
-        "question": "Welche der folgenden Aussagen über die Implementierungskosten eines digitalen Meldewesens in der Schweiz ist korrekt?",
+        "question": "Was ist der Zweck der angegebenen Kostenspannen in Abschnitt 3.3?",
         "options": {
-            "A": "Die Implementierungskosten werden pro Anbieter kommuniziert.",
-            "B": "Die angegebenen Kostenspannen sind verbindlich und dienen als Grundlage für die finanziellen Implikationen.",
-            "C": "Die Kommunikation der finanziellen Grössenordnung wird nicht pro Anbieter, sondern in allgemeinen Grössenordnungen erfolgen."
+            "A": "Eine genaue Kalkulation der Implementierungskosten",
+            "B": "Eine unverbindliche Schätzung der finanziellen Implikationen",
+            "C": "Eine Festlegung der Preise für die Implementierung",
+            "D": "Eine Bewertung der Qualität des Produktes",
+            "E": "Eine Bestimmung der notwendigen Ressourcen"
         },
-        "correct_answer": "C",
+        "correct_answer": "B",
         "language": "DE",
         "context": {
             "file": "260598/docs/01_rfi_digitales_meldewesen_kanton_luzern.pdf",
@@ -1146,13 +1153,16 @@
         }
     },
     {
-        "question": "Welche Art von Schnittstelle wird für das 'Observatorium' benötigt?",
+        "question": "Welche Schnittstelle benötigt einen wechselseitigen Zugriff?",
         "options": {
-            "A": "Eine Schnittstelle mit einseitigem Zugriff",
-            "B": "Eine Schnittstelle mit wechselseitigem Zugriff",
-            "C": "Eine Schnittstelle ohne Zugriff"
+            "A": "Schnittstelle zur zentralen Stelle",
+            "B": "Schnittstelle für die Polizei",
+            "C": "Schnittstelle zu einer Digitalen Gästekarte",
+            "D": "Schnittstelle für ein «Observatorium»",
+            "E": "Schnittstelle zum Abgabenabrechnungssystem",
+            "F": "Schnittstelle für die Kantonspolizei"
         },
-        "correct_answer": "B",
+        "correct_answer": "D",
         "language": "DE",
         "context": {
             "file": "260598/docs/01_rfi_digitales_meldewesen_kanton_luzern.pdf",
@@ -1166,13 +1176,12 @@
     {
         "question": "Was ist der Zweck des RFI?",
         "options": {
-            "A": "Eine Ausschreibung für die Beschaffung einer Systemlösung",
-            "B": "Die Informationsgewinnung und Planung von weiteren Phasen",
-            "C": "Die Beauftragung eines Unternehmens für die Implementierung eines digitalen Meldewesens",
-            "D": "Die Überprüfung der Sicherheitsvorkehrungen und Datenschutzkomponenten in einer Systemlösung",
-            "E": "Die Bewertung von Angeboten für die Beschaffung einer Systemlösung"
+            "A": "Eine Ausschreibung durchzuführen",
+            "B": "Ein Unternehmen für die Systemlösung zu beauftragen",
+            "C": "Informationen für die Planung von weiteren Phasen zu sammeln",
+            "D": "Eine Vorbefassung für eine spätere Ausschreibung durchzuführen"
         },
-        "correct_answer": "B",
+        "correct_answer": "C",
         "language": "DE",
         "context": {
             "file": "260598/docs/01_rfi_digitales_meldewesen_kanton_luzern.pdf",
