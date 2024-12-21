@@ -1,0 +1,25 @@
+Based on the following text, generate a multiple-choice question with {{ option_amt }} options.
+Indicate the correct option explicitly.
+Language of the text and your output: {{ language }}
+The multiple-choice question and answer need to fulfill the following criteria:
+Self-contained: The correct answer can be directly derived from the text without prior knowledge.
+Distractors: The incorrect options are plausible but contradicted by specific details in the text.
+Clarity: Each option references a specific, verifiable fact from the provided information.
+Randomized Option Placement: The correct answer should appear in a randomly determined position among the options, ensuring no predictable pattern or bias.
+Reasoning: Provide step-by-step reasoning for why each option is correct or incorrect, referencing specific details from the text.
+Self-Consistency: Generate multiple versions of the question and reasoning, then compare results to ensure the question is clear, consistent, and accurate.
+
+Make sure to provide the final multiple-choice question in the given output format.
+Text:
+{{ text }}
+
+Output Format (in JSON):
+{
+    "question": "<Your question here>",
+    "options": {
+        {% for label in option_labels %}\
+        "{{ label }}": "Option {{ loop.index }}"{% if not loop.last %},{% endif %}
+        {% endfor %}\
+    },
+    "correct_answer": "{{ correct_label }}"
+}
