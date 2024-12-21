@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Load MCQs</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #ffffff;
+  color: #000000;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.question {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.option {
+  margin: 5px 0;
+}
+
+.context-block {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.enhanced-block {
+  background: #e8f8f5;
+  border: 1px solid #b2dfdb;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.enhanced-block.collapsed .content {
+  display: none;
+}
+
+.enhanced-block h4 {
+  display: flex;
+  margin: 0 0 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enhanced-block .toggle-btn {
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  float: right;
+}
+
+.enhanced-block .question {
+  margin-top: 30px;
+}
+
+.enhanced-block .options {
+  margin-bottom: 20px;
+}
+
+.enhanced-block .toggle-btn:hover {
+  background: #0056b3;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  flex: 1 1 calc(20% - 10px);
+  max-width: 120px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.thumb {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  flex: 1 1 calc(20% - 10px);
+  max-width: 120px;
+}
+
+.thumb:hover {
+  background: #ddd;
+}
+
+.thumb.correct {
+  background: #28a745;
+  color: #ffffff;
+}
+
+.thumb.wrong {
+  background: #dc3545;
+  color: #ffffff;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #121212;
+    color: #e0e0e0;
+  }
+
+  .context-block {
+    background: #2a2a2a;
+    border: 1px solid #444;
+  }
+
+  .enhanced-block {
+    background: #1e1e1e;
+    border: 1px solid #555;
+  }
+
+  .enhanced-block .toggle-btn {
+    background: #3a3a3a;
+    color: #ffffff;
+  }
+
+  .enhanced-block .toggle-btn:hover {
+    background: #555555;
+  }
+
+  button {
+    background: #3a3a3a;
+    color: #ffffff;
+  }
+
+  button:hover {
+    background: #555555;
+  }
+
+  .thumb {
+    background: #3a3a3a;
+    color: #ffffff;
+  }
+
+  .thumb:hover {
+    background: #555555;
+  }
+
+  .thumb.correct {
+    background: #28a745;
+    color: #ffffff;
+  }
+
+  .thumb.wrong {
+    background: #dc3545;
+    color: #ffffff;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="question-block">Loading...</div>
+  <div class="buttons">
+    <button id="prev-btn" disabled>Previous</button>
+    <button id="next-btn" disabled>Next</button>
+    <button id="thumb-up" class="thumb">👍</button>
+    <button id="thumb-down" class="thumb">👎</button>
+    <button id="download-btn">Download</button>
+  </div>
+</div>
+
+<script>
+  let data = [];
+  let enhancedData = [];
+  let currentIndex = 0;
+  let correctQuestions = [];
+  let wrongQuestions = [];
+
+  const questionBlock = document.getElementById('question-block');
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+  const downloadBtn = document.getElementById('download-btn');
+  const thumbUp = document.getElementById('thumb-up');
+  const thumbDown = document.getElementById('thumb-down');
+
+  // Fetch the data from the MCQs.json file
+  fetch('output/MCQs.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok ' + response.statusText);
+      }
+      return response.json();
+    })
+    .then(jsonData => {
+      data = jsonData;
+      // Fetch the enhanced questions
+      return fetch('output/enhanced.json');
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok ' + response.statusText);
+      }
+      return response.json();
+    })
+    .then(jsonEnhancedData => {
+      // Ensure enhancedData is a list of lists
+      if (!Array.isArray(jsonEnhancedData)) {
+        throw new Error('Enhanced data must be a list.');
+      }
+      enhancedData = jsonEnhancedData.map(item => Array.isArray(item) ? item : []);
+
+      // Enable buttons once data is loaded
+      if (data.length > 0) {
+        prevBtn.disabled = false;
+        nextBtn.disabled = false;
+        renderQuestion(currentIndex);
+      } else {
+        questionBlock.innerHTML = "<p>No questions available.</p>";
+      }
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+      questionBlock.innerHTML = `<p>Failed to load questions: ${error.message}</p>`;
+    });
+
+  function renderQuestion(index) {
+    const item = data[index] || {};
+    const enhancedItems = Array.isArray(enhancedData[index]) ? enhancedData[index] : [];
+
+    if (!item.question) {
+      questionBlock.innerHTML = "<p>No question data available for this index.</p>";
+      return;
+    }
+
+    let html = `<div class="question">${item.question}</div>`;
+    html += `<div class="options">`;
+
+    if (item.options) {
+      for (const [key, value] of Object.entries(item.options)) {
+        html += `<div class="option"><strong>${key}</strong>: ${value}</div>`;
+      }
+    } else {
+      html += `<div class="option">No options available</div>`;
+    }
+
+    html += `</div>`;
+    html += `<div><strong>Correct Answer:</strong> ${item.correct_answer || "N/A"}</div>`;
+
+    if (item.context) {
+      html += `<div class="context-block">`;
+      html += `<h4>Context</h4>`;
+      html += `<p><strong>File:</strong> ${item.context.file || "N/A"}</p>`;
+      html += `<p><strong>Page:</strong> ${item.context.page || "N/A"}</p>`;
+      html += `<p><strong>Division Number:</strong> ${item.context.division_number || "N/A"}</p>`;
+      html += `<p><strong>Division Title:</strong> ${item.context.division_title || "N/A"}</p>`;
+      html += `<p><strong>Language:</strong> ${item.context.language || "N/A"}</p>`;
+      html += `</div>`;
+    } else {
+      html += `<div class="context-block">No context available</div>`;
+    }
+
+    if (enhancedItems.length > 0) {
+      html += `<div class="enhanced-block collapsed" id="enhanced-block">`;
+      html += `<h4>Enhanced Questions <button class="toggle-btn" onclick="toggleEnhanced()">Show</button></h4>`;
+      html += `<div class="content">`;
+      enhancedItems.forEach(enhanced => {
+        html += `<div class="question">${enhanced.question || "No question text"}</div>`;
+        if (enhanced.version === "true_false") {
+          html += `<div class="options"><strong>Statement:</strong> ${enhanced.answer || "N/A"}</div>`;
+          html += `<div><strong>Correct Answer:</strong> ${enhanced.label === true ? 'True' : enhanced.label === false ? 'False' : 'N/A'}</div>`;
+        } else {
+          html += `<div class="options">`;
+          if (enhanced.options) {
+            for (const [key, value] of Object.entries(enhanced.options)) {
+              html += `<div class="option"><strong>${key}</strong>: ${value}</div>`;
+            }
+          } else {
+            html += `<div class="option">No options available</div>`;
+          }
+          html += `</div>`;
+          html += `<div><strong>Correct Answer:</strong> ${enhanced.correct_answer || "N/A"}</div>`;
+        }
+        html += `<div><strong>Version:</strong> ${enhanced.version || "N/A"}</div>`;
+      });
+      html += `</div>`;
+      html += `</div>`;
+    } else {
+      html += `<div class="enhanced-block">No enhanced questions available</div>`;
+    }
+
+    questionBlock.innerHTML = html;
+    updateThumbButtons();
+  }
+
+  function toggleEnhanced() {
+    const enhancedBlock = document.getElementById('enhanced-block');
+    enhancedBlock.classList.toggle('collapsed');
+    const toggleButton = enhancedBlock.querySelector('.toggle-btn');
+    if (enhancedBlock.classList.contains('collapsed')) {
+      toggleButton.textContent = 'Show';
+    } else {
+      toggleButton.textContent = 'Hide';
+    }
+}
+
+
+  function updateThumbButtons() {
+    thumbUp.classList.remove('correct');
+    thumbDown.classList.remove('wrong');
+
+    if (correctQuestions.includes(currentIndex)) {
+      thumbUp.classList.add('correct');
+    } else if (wrongQuestions.includes(currentIndex)) {
+      thumbDown.classList.add('wrong');
+    }
+  }
+
+  thumbUp.addEventListener('click', () => {
+    if (!correctQuestions.includes(currentIndex)) {
+      correctQuestions.push(currentIndex);
+      wrongQuestions = wrongQuestions.filter(index => index !== currentIndex);
+      updateThumbButtons();
+    }
+  });
+
+  thumbDown.addEventListener('click', () => {
+    if (!wrongQuestions.includes(currentIndex)) {
+      wrongQuestions.push(currentIndex);
+      correctQuestions = correctQuestions.filter(index => index !== currentIndex);
+      updateThumbButtons();
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      renderQuestion(currentIndex);
+    }
+    updateButtonStates();
+  });
+
+  nextBtn.addEventListener('click', () => {
+    currentIndex++;
+    if (currentIndex < data.length) {
+      renderQuestion(currentIndex);
+    } else {
+      // If we go beyond the last question:
+      questionBlock.innerHTML = "<p>No more questions available.</p>";
+    }
+    updateButtonStates();
+  });
+
+  downloadBtn.addEventListener('click', () => {
+    const correctData = correctQuestions.map(index => data[index]);
+    const wrongData = wrongQuestions.map(index => data[index]);
+
+    const blob = new Blob([
+      JSON.stringify({ correct: correctData, wrong: wrongData }, null, 2)
+    ], { type: 'application/json' });
+
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'MCQs_feedback.json';
+    link.click();
+  });
+
+  function updateButtonStates() {
+    // Disable Previous if we're at the first question
+    prevBtn.disabled = currentIndex === 0;
+    // Disable Next if we've reached beyond the last question
+    nextBtn.disabled = currentIndex >= data.length - 1;
+  }
+
+  // Bind buttons to move across questions left and right arrow and to toggle EQ use right shift
+  document.addEventListener('keydown', (event) => {
+  if (event.key === 'ArrowRight') {
+    if (!nextBtn.disabled) {
+      currentIndex++;
+      if (currentIndex < data.length) {
+        renderQuestion(currentIndex);
+      } else {
+        questionBlock.innerHTML = "<p>No more questions available.</p>";
+      }
+      updateButtonStates();
+    }
+    } else if (event.key === 'ArrowLeft') {
+      if (!prevBtn.disabled) {
+        if (currentIndex > 0) {
+          currentIndex--;
+          renderQuestion(currentIndex);
+        }
+        updateButtonStates();
+      }
+    } else if (event.code === 'ShiftRight') {
+      // Toggle the enhanced section
+      const enhancedBlock = document.getElementById('enhanced-block');
+      if (enhancedBlock) {
+        enhancedBlock.classList.toggle('collapsed');
+        const toggleButton = enhancedBlock.querySelector('.toggle-btn');
+        if (toggleButton) {
+          toggleButton.textContent = enhancedBlock.classList.contains('collapsed') ? 'Show' : 'Hide';
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>
